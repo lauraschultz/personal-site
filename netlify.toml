@@ -1,0 +1,10 @@
+[[redirects]]
+    from = “/trickOrTreat/static/*”
+    to = “https://halloween-candy-request.netlify.app/static/:splat”
+    status = 200
+    force = false
+    
+[[redirects]]
+    from = "/trickOrTreat/*"
+    to = "https://halloween-candy-request.netlify.app/:splat"
+    status = 200
