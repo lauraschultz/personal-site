@@ -1,8 +1,6 @@
-[[redirects]]
-    from = "/trickOrTreat/static/*"
-    to = "https://halloween-candy-request.netlify.app/static/:splat"
-    status = 200
-    force = false
+[build]
+    base = "/"
+    publish = "/"
 
 [[redirects]]
     from = "/trickOrTreat/*"
