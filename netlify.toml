@@ -4,7 +4,7 @@
 
 [[redirects]]
     from = "/trickOrTreat/*"
-    to = "https://halloween-candy-request.netlify.app/:splat"
+    to = "https://halloween-candy-request.netlify.app/trickOrTreat/:splat"
     status = 200
 
 [[redirects]]
