@@ -8,3 +8,14 @@
     from = "/trickOrTreat/*"
     to = "https://halloween-candy-request.netlify.app/:splat"
     status = 200
+
+[[redirects]]
+    from = "/chew/static/*"
+    to = "https://chewapp.netlify.app/static/:splat"
+    status = 200
+    force = false
+
+[[redirects]]
+    from = "/chew/*"
+    to = "https://chewapp.netlify.app/:splat"
+    status = 200
