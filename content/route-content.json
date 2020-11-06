@@ -1,0 +1,15 @@
+{
+	"default": {
+		"projects": [
+			"Chew",
+			"BikeshareBuddy",
+			"Trick or Treat!",
+			"Multiplayer Trivia Game"
+		],
+		"bio": "My name is Laura, I am a recent college graduate and software developer based in Berlin, Germany. I love learning about all things web development and creating sites that walk the line between beautiful design and a fast, intuitive experience for the user. If you're interested in working together, please <a href='#contact' class='border-b-2 border-light'>get in touch</a> with me.",
+		"skillsIntro": "These are the languages, tools, and frameworks that I've been working with recently."
+	},
+	"/1": {
+		"projects": ["Chew"]
+	}
+}

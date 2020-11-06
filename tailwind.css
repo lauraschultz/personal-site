@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Open+Sans&display=swap");
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply font-body text-gray-900;
+	}
+	.section {
+		@apply w-screen p-2;
+	}
+	@screen sm {
+		.section {
+			@apply p-4;
+		}
+	}
+	@screen md {
+		.section {
+			@apply p-6;
+		}
+	}
+	@screen lg {
+		.section {
+			@apply p-12;
+		}
+	}
+	.section-container {
+		@apply max-w-4xl mx-auto;
+	}
+	.section-header {
+		@apply inline-block text-4xl font-display py-2;
+	}
+}
