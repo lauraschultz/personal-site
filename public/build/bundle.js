@@ -4934,7 +4934,7 @@ var app = (function () {
 
     function create_fragment$5(ctx) {
     	let section;
-    	let div4;
+    	let div5;
     	let h2;
     	let t1;
     	let div0;
@@ -4964,14 +4964,16 @@ var app = (function () {
     	let t15;
     	let input1;
     	let t16;
-    	let button;
+    	let div4;
     	let t17;
+    	let button;
+    	let t18;
     	let i2;
 
     	const block = {
     		c: function create() {
     			section = element("section");
-    			div4 = element("div");
+    			div5 = element("div");
     			h2 = element("h2");
     			h2.textContent = "Contact";
     			t1 = space();
@@ -5008,8 +5010,10 @@ var app = (function () {
     			t15 = space();
     			input1 = element("input");
     			t16 = space();
+    			div4 = element("div");
+    			t17 = space();
     			button = element("button");
-    			t17 = text("submit\n        ");
+    			t18 = text("submit\n        ");
     			i2 = element("i");
     			attr_dev(h2, "class", "section-header");
     			add_location(h2, file$5, 13, 4, 519);
@@ -5031,42 +5035,44 @@ var app = (function () {
     			attr_dev(p, "class", "pt-3 sm:px-4 md:px-10 lg:px-16");
     			add_location(p, file$5, 23, 4, 1078);
     			attr_dev(div1, "class", "inline-block w-24");
-    			add_location(div1, file$5, 27, 8, 1367);
+    			add_location(div1, file$5, 27, 8, 1359);
     			attr_dev(input0, "name", "subject");
     			attr_dev(input0, "type", "text");
     			attr_dev(input0, "class", "w-48 sm:w-64 text-gray-800 px-2 py-1 rounded bg-gray-200");
-    			add_location(input0, file$5, 31, 8, 1442);
+    			add_location(input0, file$5, 31, 8, 1434);
     			attr_dev(label0, "class", "block py-1 w-max-content");
-    			add_location(label0, file$5, 26, 6, 1318);
+    			add_location(label0, file$5, 26, 6, 1310);
     			attr_dev(div2, "class", "inline-block w-24 align-top");
-    			add_location(div2, file$5, 34, 8, 1614);
+    			add_location(div2, file$5, 34, 8, 1606);
     			attr_dev(textarea, "name", "message");
     			attr_dev(textarea, "class", "w-48 sm:w-64 text-gray-800 px-2 py-1 rounded bg-gray-200");
     			attr_dev(textarea, "rows", "5");
-    			add_location(textarea, file$5, 37, 8, 1698);
+    			add_location(textarea, file$5, 37, 8, 1690);
     			attr_dev(label1, "class", "block py-1 w-max-content");
-    			add_location(label1, file$5, 33, 6, 1565);
+    			add_location(label1, file$5, 33, 6, 1557);
     			attr_dev(div3, "class", "inline-block w-24");
-    			add_location(div3, file$5, 40, 8, 1872);
+    			add_location(div3, file$5, 40, 8, 1864);
     			attr_dev(input1, "name", "email");
     			attr_dev(input1, "type", "email");
     			attr_dev(input1, "class", "w-48 sm:w-64 text-gray-800 px-2 py-1 rounded bg-gray-200");
-    			add_location(input1, file$5, 43, 8, 1949);
+    			add_location(input1, file$5, 43, 8, 1941);
     			attr_dev(label2, "class", "block py-1 w-max-content");
-    			add_location(label2, file$5, 39, 6, 1823);
+    			add_location(label2, file$5, 39, 6, 1815);
+    			attr_dev(div4, "data-netlify-recaptcha", "true");
+    			attr_dev(div4, "class", "py-1");
+    			add_location(div4, file$5, 45, 6, 2062);
     			attr_dev(i2, "class", "fas fa-paper-plane ml-1 group-hover:ml-4 group-hover:pb-1 inline-block transition-spacing duration-300");
-    			add_location(i2, file$5, 47, 8, 2312);
+    			add_location(i2, file$5, 48, 8, 2365);
     			attr_dev(button, "type", "submit");
     			attr_dev(button, "class", "group rounded-full bg-gradient-to-r from-blue-800 to-blue-700 hover:from-blue-700 hover:to-blue-600 py-1 px-5 hover:pr-2 uppercase tracking-wide ml-24 mt-2 transition-spacing duration-300");
-    			add_location(button, file$5, 45, 6, 2070);
+    			add_location(button, file$5, 46, 6, 2123);
     			attr_dev(form, "name", "contact-form");
     			attr_dev(form, "method", "POST");
     			attr_dev(form, "class", "mx-auto w-max-content py-2");
-    			attr_dev(form, "netlify", "");
     			attr_dev(form, "data-netlify", "true");
     			add_location(form, file$5, 25, 4, 1208);
-    			attr_dev(div4, "class", "section-container");
-    			add_location(div4, file$5, 12, 2, 483);
+    			attr_dev(div5, "class", "section-container");
+    			add_location(div5, file$5, 12, 2, 483);
     			attr_dev(section, "class", "section bg-blue-900 text-light");
     			attr_dev(section, "id", "contact");
     			add_location(section, file$5, 11, 0, 419);
@@ -5076,10 +5082,10 @@ var app = (function () {
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, section, anchor);
-    			append_dev(section, div4);
-    			append_dev(div4, h2);
-    			append_dev(div4, t1);
-    			append_dev(div4, div0);
+    			append_dev(section, div5);
+    			append_dev(div5, h2);
+    			append_dev(div5, t1);
+    			append_dev(div5, div0);
     			append_dev(div0, a0);
     			append_dev(a0, i0);
     			append_dev(a0, span0);
@@ -5087,10 +5093,10 @@ var app = (function () {
     			append_dev(div0, a1);
     			append_dev(a1, i1);
     			append_dev(a1, span1);
-    			append_dev(div4, t5);
-    			append_dev(div4, p);
-    			append_dev(div4, t7);
-    			append_dev(div4, form);
+    			append_dev(div5, t5);
+    			append_dev(div5, p);
+    			append_dev(div5, t7);
+    			append_dev(div5, form);
     			append_dev(form, label0);
     			append_dev(label0, div1);
     			append_dev(label0, t9);
@@ -5106,8 +5112,10 @@ var app = (function () {
     			append_dev(label2, t15);
     			append_dev(label2, input1);
     			append_dev(form, t16);
+    			append_dev(form, div4);
+    			append_dev(form, t17);
     			append_dev(form, button);
-    			append_dev(button, t17);
+    			append_dev(button, t18);
     			append_dev(button, i2);
     		},
     		p: noop,

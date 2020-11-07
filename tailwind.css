@@ -32,6 +32,6 @@
 		@apply max-w-4xl mx-auto;
 	}
 	.section-header {
-		@apply inline-block text-4xl font-display py-2;
+		@apply inline-block text-4xl font-display pb-2;
 	}
 }
