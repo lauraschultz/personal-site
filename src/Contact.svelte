@@ -23,7 +23,7 @@
     </div>
     <p class="pt-3 sm:px-4 md:px-10 lg:px-16">Or, send me a message using the form below and I will respond to you soon:
     </p>
-    <form name="contact-form" method="POST" class="mx-auto w-max-content py-2" netlify>
+    <form name="contact-form" method="POST" class="mx-auto w-max-content py-2" netlify data-netlify="true">
       <label class="block py-1 w-max-content">
         <div class="inline-block w-24">
           Subject:
