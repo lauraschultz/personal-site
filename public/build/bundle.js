@@ -5031,33 +5031,38 @@ var app = (function () {
     			attr_dev(p, "class", "pt-3 sm:px-4 md:px-10 lg:px-16");
     			add_location(p, file$5, 23, 4, 1078);
     			attr_dev(div1, "class", "inline-block w-24");
-    			add_location(div1, file$5, 27, 8, 1325);
+    			add_location(div1, file$5, 27, 8, 1347);
+    			attr_dev(input0, "name", "subject");
     			attr_dev(input0, "type", "text");
     			attr_dev(input0, "class", "w-48 sm:w-64 text-gray-800 px-2 py-1 rounded bg-gray-200");
-    			add_location(input0, file$5, 31, 8, 1400);
+    			add_location(input0, file$5, 31, 8, 1422);
     			attr_dev(label0, "class", "block py-1 w-max-content");
-    			add_location(label0, file$5, 26, 6, 1276);
+    			add_location(label0, file$5, 26, 6, 1298);
     			attr_dev(div2, "class", "inline-block w-24 align-top");
-    			add_location(div2, file$5, 34, 8, 1557);
+    			add_location(div2, file$5, 34, 8, 1594);
+    			attr_dev(textarea, "name", "message");
     			attr_dev(textarea, "class", "w-48 sm:w-64 text-gray-800 px-2 py-1 rounded bg-gray-200");
     			attr_dev(textarea, "rows", "5");
-    			add_location(textarea, file$5, 37, 8, 1641);
+    			add_location(textarea, file$5, 37, 8, 1678);
     			attr_dev(label1, "class", "block py-1 w-max-content");
-    			add_location(label1, file$5, 33, 6, 1508);
+    			add_location(label1, file$5, 33, 6, 1545);
     			attr_dev(div3, "class", "inline-block w-24");
-    			add_location(div3, file$5, 40, 8, 1800);
+    			add_location(div3, file$5, 40, 8, 1852);
+    			attr_dev(input1, "name", "email");
     			attr_dev(input1, "type", "email");
     			attr_dev(input1, "class", "w-48 sm:w-64 text-gray-800 px-2 py-1 rounded bg-gray-200");
-    			add_location(input1, file$5, 43, 8, 1877);
+    			add_location(input1, file$5, 43, 8, 1929);
     			attr_dev(label2, "class", "block py-1 w-max-content");
-    			add_location(label2, file$5, 39, 6, 1751);
+    			add_location(label2, file$5, 39, 6, 1803);
     			attr_dev(i2, "class", "fas fa-paper-plane ml-1 group-hover:ml-4 group-hover:pb-1 inline-block transition-spacing duration-300");
-    			add_location(i2, file$5, 47, 8, 2227);
+    			add_location(i2, file$5, 47, 8, 2292);
     			attr_dev(button, "type", "submit");
     			attr_dev(button, "class", "group rounded-full bg-gradient-to-r from-blue-800 to-blue-700 hover:from-blue-700 hover:to-blue-600 py-1 px-5 hover:pr-2 uppercase tracking-wide ml-24 mt-2 transition-spacing duration-300");
-    			add_location(button, file$5, 45, 6, 1985);
+    			add_location(button, file$5, 45, 6, 2050);
+    			attr_dev(form, "name", "contact-form");
+    			attr_dev(form, "method", "POST");
     			attr_dev(form, "class", "mx-auto w-max-content py-2");
-    			attr_dev(form, "data-netlify", "true");
+    			attr_dev(form, "netlify", "");
     			add_location(form, file$5, 25, 4, 1208);
     			attr_dev(div4, "class", "section-container");
     			add_location(div4, file$5, 12, 2, 483);
@@ -5503,18 +5508,18 @@ var app = (function () {
     			t11 = space();
     			create_component(footer.$$.fragment);
     			attr_dev(a0, "href", "#home");
-    			attr_dev(a0, "class", "mx-1 sm:mx-2 font-display text-lg");
-    			add_location(a0, file$7, 22, 2, 820);
+    			attr_dev(a0, "class", "mx-1 sm:mx-2 font-display text-base sm:text-lg");
+    			add_location(a0, file$7, 21, 2, 799);
     			attr_dev(a1, "href", "#projects");
-    			attr_dev(a1, "class", "mx-1 sm:mx-2 border-b-2 border-light");
-    			add_location(a1, file$7, 23, 2, 898);
+    			attr_dev(a1, "class", "mx-1 sm:mx-2 border-b-2 border-light text-sm sm:text-base");
+    			add_location(a1, file$7, 22, 2, 890);
     			attr_dev(a2, "href", "#skills");
-    			attr_dev(a2, "class", "mx-1 sm:mx-2 border-b-2 border-light");
-    			add_location(a2, file$7, 24, 2, 978);
+    			attr_dev(a2, "class", "mx-1 sm:mx-2 border-b-2 border-light text-sm sm:text-base");
+    			add_location(a2, file$7, 23, 2, 991);
     			attr_dev(a3, "href", "#contact");
-    			attr_dev(a3, "class", "mx-1 sm:mx-2 my-1 px-3 sm:px-5 py-1 rounded-full bg-teal-800 hover:bg-teal-700 text-white whitespace-no-wrap shadow-lg font-bold shadow");
-    			add_location(a3, file$7, 26, 2, 1134);
-    			attr_dev(nav, "class", nav_class_value = "fixed z-30 p-2 sm:px-4 md:py-4 md:px-6 text-light w-full text-sm sm:text-md " + (/*y*/ ctx[0] > 200 ? "bg-navy-900 shadow-lg" : ""));
+    			attr_dev(a3, "class", "mx-1 sm:mx-2 my-1 px-3 sm:px-5 py-1 rounded-full bg-teal-800 hover:bg-teal-700 text-white whitespace-no-wrap shadow-lg font-bold shadow text-sm sm:text-md");
+    			add_location(a3, file$7, 25, 2, 1168);
+    			attr_dev(nav, "class", nav_class_value = "fixed z-30 p-2 sm:px-4 md:py-4 md:px-6 text-light w-full " + (/*y*/ ctx[0] > 200 ? "bg-navy-900 shadow-lg" : ""));
     			add_location(nav, file$7, 20, 1, 678);
     			add_location(main, file$7, 19, 0, 670);
     		},
@@ -5562,7 +5567,7 @@ var app = (function () {
     				scrolling_timeout = setTimeout(clear_scrolling, 100);
     			}
 
-    			if (!current || dirty & /*y*/ 1 && nav_class_value !== (nav_class_value = "fixed z-30 p-2 sm:px-4 md:py-4 md:px-6 text-light w-full text-sm sm:text-md " + (/*y*/ ctx[0] > 200 ? "bg-navy-900 shadow-lg" : ""))) {
+    			if (!current || dirty & /*y*/ 1 && nav_class_value !== (nav_class_value = "fixed z-30 p-2 sm:px-4 md:py-4 md:px-6 text-light w-full " + (/*y*/ ctx[0] > 200 ? "bg-navy-900 shadow-lg" : ""))) {
     				attr_dev(nav, "class", nav_class_value);
     			}
     		},
