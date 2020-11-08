@@ -5061,10 +5061,10 @@ var app = (function () {
     			attr_dev(div4, "data-netlify-recaptcha", "true");
     			attr_dev(div4, "class", "py-1");
     			add_location(div4, file$5, 45, 6, 2062);
-    			attr_dev(i2, "class", "fas fa-paper-plane ml-1 group-hover:ml-4 group-hover:pb-1 inline-block transition-spacing duration-300");
-    			add_location(i2, file$5, 48, 8, 2365);
+    			attr_dev(i2, "class", "fas fa-paper-plane ml-1 inline-block transition-spacing duration-300");
+    			add_location(i2, file$5, 48, 8, 2354);
     			attr_dev(button, "type", "submit");
-    			attr_dev(button, "class", "group rounded-full bg-gradient-to-r from-blue-800 to-blue-700 hover:from-blue-700 hover:to-blue-600 py-1 px-5 hover:pr-2 uppercase tracking-wide ml-24 mt-2 transition-spacing duration-300");
+    			attr_dev(button, "class", "group rounded-full bg-gradient-to-r from-blue-800 to-blue-700 hover:from-blue-700 hover:to-blue-600 py-1 px-5 uppercase tracking-wide ml-24 mt-2 transition-spacing duration-300");
     			add_location(button, file$5, 46, 6, 2123);
     			attr_dev(form, "name", "contact-form");
     			attr_dev(form, "method", "POST");
