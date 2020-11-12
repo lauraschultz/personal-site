@@ -4,7 +4,7 @@ module.exports = {
 		// purgeLayersByDefault: true,
 	},
 	purge: {
-		enabled: true,
+		enabled: false,
 		content: ["./src/*.svelte"],
 	},
 	theme: {
@@ -15,6 +15,9 @@ module.exports = {
 		extend: {
 			transitionProperty: {
 				spacing: "margin, padding",
+			},
+			maxWidth: {
+				"7xl": "84rem",
 			},
 			width: {
 				"min-content": "min-content",

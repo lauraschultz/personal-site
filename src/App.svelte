@@ -10,6 +10,7 @@
 	let projects = pageContent.projects || content.default.projects;
 	let bio = pageContent.bio || content.default.bio;
 	let skillsIntro = pageContent.skillsIntro || content.default.skillsIntro;
+	let resume = pageContent.resume || content.default.resume;
 	console.log($location)
 	console.log(JSON.stringify(location))
 	let y;
@@ -19,7 +20,7 @@
 
 <main>
 	<nav class="{'fixed z-30 p-2 sm:px-4 md:py-4 md:px-6 text-light w-full ' + (y > 200 ? 'bg-navy-900 shadow-lg' : '')}">
-		<a href="#home" class="mx-1 sm:mx-2 font-display text-base sm:text-lg">Laura Schultz</a>
+		<a href={'#home'} class="mx-1 sm:mx-2 font-display text-base sm:text-lg">Laura Schultz</a>
 		<a href="#projects" class="mx-1 sm:mx-2 border-b-2 border-light text-sm sm:text-base">Projects</a>
 		<a href="#skills" class="mx-1 sm:mx-2 border-b-2 border-light text-sm sm:text-base">Skills</a>
 		<!-- <a href="#home" class="px-1 mx-1 border-b-2 border-light">Resume</a> -->

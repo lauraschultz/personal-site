@@ -437,14 +437,70 @@ var app = (function () {
 
     function create_fragment(ctx) {
     	let section;
-    	let img0;
-    	let img0_src_value;
+    	let img;
+    	let img_src_value;
     	let t0;
-    	let div1;
-    	let img1;
-    	let img1_src_value;
-    	let t1;
+    	let div2;
     	let div0;
+    	let svg;
+    	let g14;
+    	let g13;
+    	let g12;
+    	let g0;
+    	let path0;
+    	let path1;
+    	let path2;
+    	let path3;
+    	let path4;
+    	let path5;
+    	let path6;
+    	let path7;
+    	let g9;
+    	let g3;
+    	let g1;
+    	let path8;
+    	let path9;
+    	let path10;
+    	let g2;
+    	let path11;
+    	let path12;
+    	let path13;
+    	let path14;
+    	let g4;
+    	let path15;
+    	let path16;
+    	let g5;
+    	let path17;
+    	let path18;
+    	let g6;
+    	let path19;
+    	let path20;
+    	let path21;
+    	let path22;
+    	let path23;
+    	let path24;
+    	let g7;
+    	let path25;
+    	let path26;
+    	let path27;
+    	let g8;
+    	let path28;
+    	let path29;
+    	let path30;
+    	let g10;
+    	let path31;
+    	let path32;
+    	let path33;
+    	let g11;
+    	let path34;
+    	let path35;
+    	let path36;
+    	let path37;
+    	let path38;
+    	let path39;
+    	let path40;
+    	let t1;
+    	let div1;
     	let h1;
     	let t3;
     	let p;
@@ -452,51 +508,419 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			section = element("section");
-    			img0 = element("img");
+    			img = element("img");
     			t0 = space();
-    			div1 = element("div");
-    			img1 = element("img");
-    			t1 = space();
+    			div2 = element("div");
     			div0 = element("div");
+    			svg = svg_element("svg");
+    			g14 = svg_element("g");
+    			g13 = svg_element("g");
+    			g12 = svg_element("g");
+    			g0 = svg_element("g");
+    			path0 = svg_element("path");
+    			path1 = svg_element("path");
+    			path2 = svg_element("path");
+    			path3 = svg_element("path");
+    			path4 = svg_element("path");
+    			path5 = svg_element("path");
+    			path6 = svg_element("path");
+    			path7 = svg_element("path");
+    			g9 = svg_element("g");
+    			g3 = svg_element("g");
+    			g1 = svg_element("g");
+    			path8 = svg_element("path");
+    			path9 = svg_element("path");
+    			path10 = svg_element("path");
+    			g2 = svg_element("g");
+    			path11 = svg_element("path");
+    			path12 = svg_element("path");
+    			path13 = svg_element("path");
+    			path14 = svg_element("path");
+    			g4 = svg_element("g");
+    			path15 = svg_element("path");
+    			path16 = svg_element("path");
+    			g5 = svg_element("g");
+    			path17 = svg_element("path");
+    			path18 = svg_element("path");
+    			g6 = svg_element("g");
+    			path19 = svg_element("path");
+    			path20 = svg_element("path");
+    			path21 = svg_element("path");
+    			path22 = svg_element("path");
+    			path23 = svg_element("path");
+    			path24 = svg_element("path");
+    			g7 = svg_element("g");
+    			path25 = svg_element("path");
+    			path26 = svg_element("path");
+    			path27 = svg_element("path");
+    			g8 = svg_element("g");
+    			path28 = svg_element("path");
+    			path29 = svg_element("path");
+    			path30 = svg_element("path");
+    			g10 = svg_element("g");
+    			path31 = svg_element("path");
+    			path32 = svg_element("path");
+    			path33 = svg_element("path");
+    			g11 = svg_element("g");
+    			path34 = svg_element("path");
+    			path35 = svg_element("path");
+    			path36 = svg_element("path");
+    			path37 = svg_element("path");
+    			path38 = svg_element("path");
+    			path39 = svg_element("path");
+    			path40 = svg_element("path");
+    			t1 = space();
+    			div1 = element("div");
     			h1 = element("h1");
-    			h1.textContent = "Hey.";
+    			h1.textContent = "Hey, I'm Laura.";
     			t3 = space();
     			p = element("p");
-    			if (img0.src !== (img0_src_value = /*triangle*/ ctx[1])) attr_dev(img0, "src", img0_src_value);
-    			attr_dev(img0, "class", "absolute z-0 w-screen h-screen pointer-events-none");
-    			attr_dev(img0, "alt", "");
-    			add_location(img0, file, 13, 4, 308);
-    			if (img1.src !== (img1_src_value = /*woman*/ ctx[2])) attr_dev(img1, "src", img1_src_value);
-    			attr_dev(img1, "class", "hidden sm:block sm:flex-1 pointer-events-none max-w-sm z-10");
-    			attr_dev(img1, "alt", "woman at desk");
-    			add_location(img1, file, 26, 8, 997);
+    			if (img.src !== (img_src_value = /*triangle*/ ctx[1])) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "class", "absolute z-0 w-screen h-screen pointer-events-none");
+    			attr_dev(img, "alt", "");
+    			add_location(img, file, 54, 4, 981);
+    			attr_dev(path0, "id", "Vector");
+    			attr_dev(path0, "d", "M165.71 798.28C165.71 803.584 167.817 808.671 171.568 812.422C175.319 816.173 180.406 818.28 185.71 818.28H496.55C501.854 818.28 506.941 816.173 510.692 812.422C514.443 808.671 516.55 803.584 516.55 798.28C516.55 792.976 514.443 787.889 510.692 784.138C506.941 780.387 501.854 778.28 496.55 778.28H185.71C180.406 778.28 175.319 780.387 171.568 784.138C167.817 787.889 165.71 792.976 165.71 798.28Z");
+    			attr_dev(path0, "fill", "white");
+    			attr_dev(path0, "stroke", "#DDAB3C");
+    			attr_dev(path0, "stroke-width", "5");
+    			attr_dev(path0, "stroke-miterlimit", "10");
+    			add_location(path0, file, 64, 32, 1703);
+    			attr_dev(path1, "id", "Vector_2");
+    			attr_dev(path1, "d", "M276.89 850.5H393.89C397.645 850.5 401.247 849.008 403.903 846.353C406.558 843.697 408.05 840.095 408.05 836.34V818.28H262.74V836.35C262.743 840.102 264.234 843.7 266.887 846.353C269.54 849.006 273.138 850.497 276.89 850.5Z");
+    			attr_dev(path1, "fill", "white");
+    			attr_dev(path1, "stroke", "#DDAB3C");
+    			attr_dev(path1, "stroke-width", "5");
+    			attr_dev(path1, "stroke-miterlimit", "10");
+    			add_location(path1, file, 67, 32, 2300);
+    			attr_dev(path2, "id", "Vector_3");
+    			attr_dev(path2, "d", "M350.72 1095.58H320.11L320.11 850.5H350.72V1095.58Z");
+    			attr_dev(path2, "fill", "white");
+    			attr_dev(path2, "stroke", "#DDAB3C");
+    			attr_dev(path2, "stroke-width", "5");
+    			attr_dev(path2, "stroke-miterlimit", "10");
+    			add_location(path2, file, 70, 32, 2725);
+    			attr_dev(path3, "id", "Vector_4");
+    			attr_dev(path3, "d", "M352.75 1158.8H318.06C311.3 1158.8 305.82 1153.32 305.82 1146.56V1107.82C305.82 1101.06 311.3 1095.58 318.06 1095.58H352.75C359.51 1095.58 364.99 1101.06 364.99 1107.82V1146.56C364.99 1153.32 359.51 1158.8 352.75 1158.8Z");
+    			attr_dev(path3, "fill", "white");
+    			attr_dev(path3, "stroke", "#DDAB3C");
+    			attr_dev(path3, "stroke-width", "5");
+    			attr_dev(path3, "stroke-miterlimit", "10");
+    			add_location(path3, file, 72, 32, 2942);
+    			attr_dev(path4, "id", "Vector_5");
+    			attr_dev(path4, "d", "M199.94 1215.74C199.94 1200.64 205.939 1186.16 216.617 1175.48C227.296 1164.8 241.779 1158.8 256.88 1158.8H413.94C429.041 1158.8 443.524 1164.8 454.203 1175.48C464.881 1186.16 470.88 1200.64 470.88 1215.74");
+    			attr_dev(path4, "stroke", "#DDAB3C");
+    			attr_dev(path4, "stroke-width", "5");
+    			attr_dev(path4, "stroke-miterlimit", "10");
+    			add_location(path4, file, 75, 32, 3364);
+    			attr_dev(path5, "id", "Vector_6");
+    			attr_dev(path5, "d", "M198.91 1245.32C186.312 1245.32 176.1 1235.11 176.1 1222.51C176.1 1209.91 186.312 1199.7 198.91 1199.7C211.508 1199.7 221.72 1209.91 221.72 1222.51C221.72 1235.11 211.508 1245.32 198.91 1245.32Z");
+    			attr_dev(path5, "fill", "white");
+    			attr_dev(path5, "stroke", "#DDAB3C");
+    			attr_dev(path5, "stroke-width", "5");
+    			attr_dev(path5, "stroke-miterlimit", "10");
+    			add_location(path5, file, 78, 32, 3758);
+    			attr_dev(path6, "id", "Vector_7");
+    			attr_dev(path6, "d", "M472.32 1245.32C459.722 1245.32 449.51 1235.11 449.51 1222.51C449.51 1209.91 459.722 1199.7 472.32 1199.7C484.918 1199.7 495.13 1209.91 495.13 1222.51C495.13 1235.11 484.918 1245.32 472.32 1245.32Z");
+    			attr_dev(path6, "fill", "white");
+    			attr_dev(path6, "stroke", "#DDAB3C");
+    			attr_dev(path6, "stroke-width", "5");
+    			attr_dev(path6, "stroke-miterlimit", "10");
+    			add_location(path6, file, 81, 32, 4154);
+    			attr_dev(path7, "id", "Vector_8");
+    			attr_dev(path7, "d", "M334.59 1245.32C321.992 1245.32 311.78 1235.11 311.78 1222.51C311.78 1209.91 321.992 1199.7 334.59 1199.7C347.188 1199.7 357.4 1209.91 357.4 1222.51C357.4 1235.11 347.188 1245.32 334.59 1245.32Z");
+    			attr_dev(path7, "fill", "white");
+    			attr_dev(path7, "stroke", "#DDAB3C");
+    			attr_dev(path7, "stroke-width", "5");
+    			attr_dev(path7, "stroke-miterlimit", "10");
+    			add_location(path7, file, 84, 32, 4553);
+    			attr_dev(g0, "id", "CHAIR");
+    			add_location(g0, file, 63, 28, 1656);
+    			attr_dev(path8, "id", "Vector_9");
+    			attr_dev(path8, "d", "M631.94 1126.39C642.12 1150.54 651.39 1170.34 658.46 1183.33C663.72 1192.99 672.88 1249.33 721.04 1226.63C722.74 1225.83 702.04 1220.49 695.51 1173.88C693.223 1157.54 691.127 1141.78 689.22 1126.6C670.38 1127.88 646.48 1127.1 631.94 1126.39Z");
+    			attr_dev(path8, "fill", "#FFCFC9");
+    			add_location(path8, file, 91, 40, 5133);
+    			attr_dev(path9, "id", "SHOE");
+    			attr_dev(path9, "d", "M642.35 1249.33C642.35 1249.33 622.96 1182.23 648.89 1171.99C657.17 1168.72 667.21 1176.99 669.89 1205.23C672.24 1229.92 708.31 1233.75 711.71 1217.79C711.71 1217.79 755.93 1226.79 755.93 1249.33H642.35Z");
+    			attr_dev(path9, "fill", "#294C75");
+    			add_location(path9, file, 94, 40, 5545);
+    			attr_dev(path10, "id", "Vector_10");
+    			attr_dev(path10, "d", "M618.85 1125.63C618.85 1125.63 672.41 1129.46 700.58 1125.45C700.58 1125.45 737.98 735.3 732.39 695.16C725.66 646.87 564.9 604.07 481.79 590.5L466.48 521.16C466.48 521.16 354.04 519.16 290.55 519.16C290.55 519.16 222.55 640.16 229.55 720.16C236.55 800.16 383.17 782 578.98 782C578.98 782 519.28 902.51 618.85 1125.63Z");
+    			attr_dev(path10, "fill", "#1E7B9F");
+    			add_location(path10, file, 97, 40, 5915);
+    			attr_dev(g1, "id", "LEFT LEG");
+    			add_location(g1, file, 90, 36, 5075);
+    			attr_dev(path11, "id", "Vector_11");
+    			attr_dev(path11, "d", "M455.69 1128.29C470.587 1129.61 485.576 1129.49 500.45 1127.93C495.45 1147.38 490.83 1165.93 487.16 1182.5C484.79 1193.14 500.02 1207.5 504.36 1217.95L504.02 1217.79C484.02 1214.6 457.19 1233.54 459.95 1203.98C462.71 1174.42 458.47 1167.05 455.69 1128.29Z");
+    			attr_dev(path11, "fill", "#FFCFC9");
+    			add_location(path11, file, 102, 40, 6500);
+    			attr_dev(path12, "id", "SHOE_2");
+    			attr_dev(path12, "d", "M460.55 1182.23C453.67 1182.23 442.49 1194.67 443.6 1214.59C444.238 1226.48 446.701 1238.19 450.9 1249.33H528.23C526.87 1227.88 504.02 1217.79 504.02 1217.79C484.02 1214.6 458.19 1233.54 460.95 1203.98L460.55 1182.23Z");
+    			attr_dev(path12, "fill", "#294C75");
+    			add_location(path12, file, 105, 40, 6927);
+    			attr_dev(path13, "id", "Vector_12");
+    			attr_dev(path13, "d", "M400.01 628C400.01 628 570.44 658.8 589.8 709.85C609.16 760.9 518.85 1125.6 518.85 1125.6C466.49 1133.6 439.63 1125.6 439.63 1125.6C385.17 875.84 448.98 793 448.98 793C322.07 787.61 241.98 799.65 229.54 720.22C225.57 695 253.93 598.53 400.01 628Z");
+    			attr_dev(path13, "fill", "#1E7B9F");
+    			add_location(path13, file, 108, 40, 7313);
+    			attr_dev(path14, "id", "Vector_13");
+    			attr_dev(path14, "d", "M403.01 628C403.01 628 573.44 658.8 592.8 709.85C612.16 760.9 521.85 1125.6 521.85 1125.6");
+    			attr_dev(path14, "stroke", "#1F3147");
+    			attr_dev(path14, "stroke-width", "5");
+    			attr_dev(path14, "stroke-miterlimit", "10");
+    			add_location(path14, file, 111, 40, 7731);
+    			attr_dev(g2, "id", "RIGHT LEG");
+    			add_location(g2, file, 101, 36, 6441);
+    			attr_dev(g3, "id", "LEGS");
+    			add_location(g3, file, 89, 32, 5025);
+    			attr_dev(path15, "id", "Vector_14");
+    			attr_dev(path15, "d", "M440.48 464.58C430.35 441.68 475.32 411.58 521.34 423.58C521.34 423.58 505.82 238.9 469.45 215.63C434.15 193.05 425.65 299.4 424.45 325.37C424.49 325.37 417.96 425.84 440.48 464.58Z");
+    			attr_dev(path15, "fill", "#DBEAF0");
+    			add_location(path15, file, 117, 36, 8159);
+    			attr_dev(path16, "id", "Vector_15");
+    			attr_dev(path16, "d", "M444.44 470.15C422.15 450.15 468.24 409.45 521.34 423.58C554.56 428.74 683.7 456.27 695.84 462.58C707.7 467.87 741.95 485.1 746.31 490.33C751.81 496.93 752.65 514.39 752.31 516.69C751.97 518.99 747.46 530.96 747.46 530.96C747.46 530.96 738.81 530.07 739.91 520.66C741.23 509.47 731.27 506 724.61 503C721.83 501.76 714.61 502.27 713.34 506.48C712.07 510.69 722.6 515.79 724.34 518.84C726.93 523.46 723.93 528.63 723.87 528.74C723.81 528.85 707.81 520.12 704.72 518.48C701.88 516.97 688.53 501.39 682.87 487.66C682.83 487.65 483.57 505.31 444.44 470.15Z");
+    			attr_dev(path16, "fill", "#FFC0B7");
+    			add_location(path16, file, 120, 36, 8500);
+    			attr_dev(g4, "id", "LEFT HAND");
+    			add_location(g4, file, 116, 32, 8104);
+    			attr_dev(path17, "id", "Vector_16");
+    			attr_dev(path17, "d", "M469.17 116.26C472.92 107.15 488.46 60.01 463.28 39.65C438.1 19.29 404.89 -1.59999 364.71 1.65001C324.53 4.90001 315 50 290.56 67C269 81.9967 257.25 77.9 231 101.5C204.75 125.1 214.76 149.75 188.01 169.58C161.26 189.41 147.3 175.96 120.5 211C89.78 251.18 112.705 280.59 72.5 306.5C27.5 335.5 15 374 22.61 430.22H273.79C434.17 405.44 469.17 116.26 469.17 116.26Z");
+    			attr_dev(path17, "fill", "#DDAB3C");
+    			add_location(path17, file, 125, 36, 9294);
+    			attr_dev(path18, "id", "Vector_17");
+    			attr_dev(path18, "d", "M451.86 36.83C427.38 15.14 398.92 0.71 358.66 2.68C318.4 4.65 304.5 41 279.88 57.54C260 70.8956 247.53 66.69 220.5 90C193.47 113.31 199.76 142.26 172.31 161.69C144.86 181.12 135.46 170.97 107.5 206C75.43 246.17 97.0851 265.128 59 297.5C19 331.5 -1.5 369 3.99998 430.5");
+    			attr_dev(path18, "stroke", "#DDAB3C");
+    			attr_dev(path18, "stroke-width", "5");
+    			attr_dev(path18, "stroke-miterlimit", "10");
+    			add_location(path18, file, 128, 36, 9815);
+    			attr_dev(g5, "id", "HAIR");
+    			add_location(g5, file, 124, 32, 9244);
+    			attr_dev(path19, "id", "Vector_18");
+    			attr_dev(path19, "d", "M467.24 520.46C467.24 520.46 481.48 404.4 489.01 398.32C505.92 384.66 519.37 365.07 512.32 338.02C508.32 322.75 476.17 221.53 469.32 215.1C462.47 208.67 417.52 192.6 417.52 192.6H290.52C276.06 197.42 230.66 213.75 219.81 230.37C166.81 311.53 149.86 441.71 149.86 441.71H215.76C215.76 441.71 247.48 370.52 258.76 369.71C270.04 368.9 291.17 519.46 291.17 519.46C291.17 519.46 363.42 539.51 467.24 520.46Z");
+    			attr_dev(path19, "fill", "#DBEAF0");
+    			add_location(path19, file, 133, 36, 10369);
+    			attr_dev(path20, "id", "Vector_19");
+    			attr_dev(path20, "d", "M468.24 520.46C468.24 520.46 482.48 404.4 490.01 398.32C506.92 384.66 521.37 364.07 514.32 337.02");
+    			attr_dev(path20, "stroke", "#1F3147");
+    			attr_dev(path20, "stroke-width", "5");
+    			attr_dev(path20, "stroke-miterlimit", "10");
+    			add_location(path20, file, 136, 36, 10931);
+    			attr_dev(path21, "id", "Vector_20");
+    			attr_dev(path21, "d", "M378.17 206.7C378.17 206.7 436.67 318.32 422.17 530.46");
+    			attr_dev(path21, "stroke", "white");
+    			attr_dev(path21, "stroke-width", "5");
+    			attr_dev(path21, "stroke-miterlimit", "10");
+    			add_location(path21, file, 139, 36, 11230);
+    			attr_dev(path22, "id", "Vector_21");
+    			attr_dev(path22, "d", "M385.16 301.2C380.902 301.2 377.45 297.748 377.45 293.49C377.45 289.232 380.902 285.78 385.16 285.78C389.418 285.78 392.87 289.232 392.87 293.49C392.87 297.748 389.418 301.2 385.16 301.2Z");
+    			attr_dev(path22, "stroke", "white");
+    			attr_dev(path22, "stroke-width", "5");
+    			attr_dev(path22, "stroke-miterlimit", "10");
+    			add_location(path22, file, 141, 36, 11444);
+    			attr_dev(path23, "id", "Vector_22");
+    			attr_dev(path23, "d", "M395.73 357.74C391.472 357.74 388.02 354.288 388.02 350.03C388.02 345.772 391.472 342.32 395.73 342.32C399.988 342.32 403.44 345.772 403.44 350.03C403.44 354.288 399.988 357.74 395.73 357.74Z");
+    			attr_dev(path23, "stroke", "white");
+    			attr_dev(path23, "stroke-width", "5");
+    			attr_dev(path23, "stroke-miterlimit", "10");
+    			add_location(path23, file, 144, 36, 11831);
+    			attr_dev(path24, "id", "Vector_23");
+    			attr_dev(path24, "d", "M401.38 414.48C397.122 414.48 393.67 411.028 393.67 406.77C393.67 402.512 397.122 399.06 401.38 399.06C405.638 399.06 409.09 402.512 409.09 406.77C409.09 411.028 405.638 414.48 401.38 414.48Z");
+    			attr_dev(path24, "stroke", "white");
+    			attr_dev(path24, "stroke-width", "5");
+    			attr_dev(path24, "stroke-miterlimit", "10");
+    			add_location(path24, file, 147, 36, 12222);
+    			attr_dev(g6, "id", "BLOUSE");
+    			add_location(g6, file, 132, 32, 10317);
+    			attr_dev(path25, "id", "Vector_24");
+    			attr_dev(path25, "d", "M157.17 473.36C189.8 507.67 400.76 461.79 400.76 461.79C400.76 461.79 411.76 479.17 424.64 479.79C437.52 480.41 449.71 475.86 456.25 481.38C462.79 486.9 469.39 496.51 474.51 497.5C480.589 498.743 486.828 499.007 492.99 498.28C490.802 492.247 488.285 486.338 485.45 480.58C489.34 483.73 494.17 489.51 497 491.92C498.178 493.016 499.69 493.684 501.294 493.816C502.897 493.948 504.498 493.538 505.84 492.65C505.84 492.65 497.39 479.75 494.06 476.3C490.73 472.85 480.52 464.19 474.86 462.22C468.17 459.36 429 440.17 409.45 436.99C388.72 433.63 220.84 422.33 220.84 422.33C160.12 422.29 129.77 444.56 157.17 473.36Z");
+    			attr_dev(path25, "fill", "#FFCFC9");
+    			add_location(path25, file, 152, 36, 12698);
+    			attr_dev(path26, "id", "Vector_25");
+    			attr_dev(path26, "d", "M486.68 496.27C486.68 496.27 474.56 475.2 470.5 472.97C463.35 469.03 454.02 463.85 454.02 463.85");
+    			attr_dev(path26, "stroke", "#FFB0AF");
+    			attr_dev(path26, "stroke-width", "3");
+    			attr_dev(path26, "stroke-miterlimit", "10");
+    			attr_dev(path26, "stroke-linecap", "round");
+    			add_location(path26, file, 155, 36, 13468);
+    			attr_dev(path27, "id", "Vector_26");
+    			attr_dev(path27, "d", "M478.3 495.89C478.3 495.89 467.59 478.56 463.53 476.33C456.38 472.39 447.05 467.21 447.05 467.21");
+    			attr_dev(path27, "stroke", "#FFB0AF");
+    			attr_dev(path27, "stroke-width", "3");
+    			attr_dev(path27, "stroke-miterlimit", "10");
+    			attr_dev(path27, "stroke-linecap", "round");
+    			add_location(path27, file, 159, 36, 13829);
+    			attr_dev(g7, "id", "R_HAND");
+    			attr_dev(g7, "class", "svelte-e1enz");
+    			add_location(g7, file, 151, 32, 12646);
+    			attr_dev(path28, "id", "Vector_27");
+    			attr_dev(path28, "d", "M366.09 114.69C366.09 114.69 348.42 170.1 290.56 192.6C290.56 192.6 371.72 227.96 417.56 192.6V116.29L366.09 114.69Z");
+    			attr_dev(path28, "fill", "#FFCFC9");
+    			add_location(path28, file, 165, 36, 14273);
+    			attr_dev(path29, "id", "Vector_28");
+    			attr_dev(path29, "d", "M405.84 199.81C409.972 197.816 413.886 195.4 417.52 192.6V116.29L366.09 114.69C366.09 114.69 365.59 116.25 364.49 118.96C359.24 142.35 373.44 190.88 405.84 199.81Z");
+    			attr_dev(path29, "fill", "#FFC0B7");
+    			add_location(path29, file, 168, 36, 14549);
+    			attr_dev(g8, "id", "NECK");
+    			add_location(g8, file, 164, 32, 14223);
+    			attr_dev(path30, "id", "HEAD");
+    			attr_dev(path30, "d", "M367.44 123.22C367.97 141.44 402.26 184.3 421.01 184.3C436.55 184.3 465.56 137.43 469.22 116.3C472.97 94.56 469.17 56 438.17 55.46C419.01 55.13 409.17 73.13 403.42 94C396.42 119.19 374.94 113.54 374.94 113.54C374.94 113.54 368.79 99.54 360.22 106.54C351.65 113.54 367.44 123.22 367.44 123.22Z");
+    			attr_dev(path30, "fill", "#FFCFC9");
+    			add_location(path30, file, 172, 32, 14905);
+    			attr_dev(g9, "id", "WOMAN");
+    			add_location(g9, file, 88, 28, 4978);
+    			attr_dev(path31, "id", "Vector_29");
+    			attr_dev(path31, "d", "M865.55 1249.33L815.55 560.5L765.55 1250.78");
+    			attr_dev(path31, "stroke", "#DDAB3C");
+    			attr_dev(path31, "stroke-width", "5");
+    			attr_dev(path31, "stroke-miterlimit", "10");
+    			add_location(path31, file, 177, 32, 15416);
+    			attr_dev(path32, "id", "Vector_30");
+    			attr_dev(path32, "d", "M869.94 560.5H211.61C207.497 560.5 203.553 558.868 200.643 555.961C197.733 553.055 196.095 549.113 196.09 545C196.09 540.884 197.725 536.936 200.636 534.026C203.546 531.115 207.494 529.48 211.61 529.48H869.94V560.5Z");
+    			attr_dev(path32, "fill", "white");
+    			add_location(path32, file, 179, 32, 15613);
+    			attr_dev(path33, "id", "Vector_31");
+    			attr_dev(path33, "d", "M869.94 560.5H211.61C207.497 560.5 203.553 558.868 200.643 555.961C197.733 553.055 196.095 549.113 196.09 545V545C196.09 540.884 197.725 536.936 200.636 534.026C203.546 531.115 207.494 529.48 211.61 529.48H869.94");
+    			attr_dev(path33, "stroke", "#DDAB3C");
+    			attr_dev(path33, "stroke-width", "5");
+    			attr_dev(path33, "stroke-miterlimit", "10");
+    			add_location(path33, file, 182, 32, 15974);
+    			attr_dev(g10, "id", "TABLE");
+    			add_location(g10, file, 176, 28, 15369);
+    			attr_dev(path34, "id", "Vector_32");
+    			attr_dev(path34, "d", "M609.17 295.32H874.84C877.767 295.322 880.651 296.031 883.246 297.387C885.84 298.742 888.07 300.703 889.744 303.104C891.419 305.505 892.489 308.275 892.865 311.178C893.24 314.081 892.909 317.032 891.9 319.78L824.9 501.78H513.8L583.1 313.51C585.062 308.175 588.614 303.57 593.276 300.318C597.938 297.065 603.485 295.32 609.17 295.32V295.32Z");
+    			attr_dev(path34, "stroke", "black");
+    			attr_dev(path34, "stroke-miterlimit", "10");
+    			add_location(path34, file, 187, 32, 16453);
+    			attr_dev(path35, "id", "Vector_33");
+    			attr_dev(path35, "d", "M606.78 295.32H873.43C885.76 295.32 894.32 308.39 890.06 320.72L832.06 489.13C830.903 492.75 828.641 495.917 825.592 498.186C822.543 500.455 818.86 501.712 815.06 501.78H516.78L581.35 314.22C585.27 302.86 595.42 295.32 606.78 295.32Z");
+    			attr_dev(path35, "fill", "white");
+    			add_location(path35, file, 190, 32, 16963);
+    			attr_dev(path36, "id", "Vector_34");
+    			attr_dev(path36, "d", "M617.78 307.93H884.43C887.285 307.929 890.098 308.619 892.63 309.939C895.161 311.26 897.336 313.173 898.969 315.515C900.603 317.857 901.645 320.559 902.009 323.391C902.373 326.223 902.048 329.101 901.06 331.78L843.06 489.9C841.784 493.383 839.469 496.39 836.429 498.514C833.389 500.639 829.769 501.779 826.06 501.78H527.78L592.35 325.67C594.265 320.467 597.73 315.976 602.277 312.804C606.825 309.632 612.235 307.93 617.78 307.93Z");
+    			attr_dev(path36, "fill", "#DCE4EA");
+    			add_location(path36, file, 193, 32, 17342);
+    			attr_dev(path37, "id", "Vector_35");
+    			attr_dev(path37, "d", "M825.52 501.78H316.66C309.565 501.78 302.761 504.598 297.745 509.615C292.728 514.631 289.91 521.435 289.91 528.53H798.77C805.865 528.53 812.668 525.712 817.685 520.695C822.702 515.679 825.52 508.875 825.52 501.78Z");
+    			attr_dev(path37, "fill", "white");
+    			attr_dev(path37, "stroke", "#4A5568");
+    			attr_dev(path37, "stroke-width", "6");
+    			attr_dev(path37, "stroke-miterlimit", "10");
+    			add_location(path37, file, 196, 32, 17919);
+    			attr_dev(path38, "id", "Vector_36");
+    			attr_dev(path38, "d", "M609.17 295.32H874.84C877.767 295.322 880.651 296.031 883.246 297.387C885.84 298.742 888.07 300.703 889.744 303.104C891.419 305.505 892.489 308.275 892.865 311.178C893.24 314.081 892.909 317.032 891.9 319.78L824.9 501.78H513.8L583.1 313.51C585.062 308.175 588.614 303.57 593.276 300.318C597.938 297.065 603.485 295.32 609.17 295.32V295.32Z");
+    			attr_dev(path38, "stroke", "#4A5568");
+    			attr_dev(path38, "stroke-width", "5");
+    			attr_dev(path38, "stroke-miterlimit", "10");
+    			add_location(path38, file, 199, 32, 18335);
+    			attr_dev(path39, "id", "Vector_37");
+    			attr_dev(path39, "d", "M706.962 427.462C700.669 420.472 702.557 408.512 711.18 400.747C719.803 392.983 731.896 392.355 738.189 399.345C744.482 406.334 742.594 418.295 733.971 426.059C725.348 433.823 713.255 434.451 706.962 427.462Z");
+    			attr_dev(path39, "fill", "#DDAB3C");
+    			add_location(path39, file, 202, 32, 18864);
+    			attr_dev(path40, "id", "Vector_38");
+    			attr_dev(path40, "d", "M700.85 421.095C694.557 414.106 696.445 402.145 705.068 394.381C713.691 386.617 725.784 385.989 732.077 392.978C738.37 399.968 736.482 411.928 727.859 419.693C719.236 427.457 707.143 428.085 700.85 421.095Z");
+    			attr_dev(path40, "stroke", "#4A5568");
+    			attr_dev(path40, "stroke-width", "5");
+    			attr_dev(path40, "stroke-miterlimit", "10");
+    			add_location(path40, file, 205, 32, 19220);
+    			attr_dev(g11, "id", "LAPTOP");
+    			add_location(g11, file, 186, 28, 16405);
+    			attr_dev(g12, "id", "2");
+    			add_location(g12, file, 62, 24, 1617);
+    			attr_dev(g13, "id", "Ð¡Ð»Ð¾Ð¹ 1");
+    			add_location(g13, file, 61, 20, 1533);
+    			attr_dev(g14, "id", "Layer 2");
+    			add_location(g14, file, 60, 16, 1496);
+    			attr_dev(svg, "width", "100%");
+    			attr_dev(svg, "height", "100%");
+    			attr_dev(svg, "viewBox", "0 0 903 1251");
+    			attr_dev(svg, "fill", "none");
+    			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
+    			add_location(svg, file, 59, 12, 1377);
+    			attr_dev(div0, "class", "hidden md:block md:flex-1 pointer-events-none max-w-sm z-10");
+    			add_location(div0, file, 58, 8, 1291);
     			attr_dev(h1, "class", "text-3xl font-display");
-    			add_location(h1, file, 29, 12, 1194);
+    			add_location(h1, file, 217, 12, 19814);
     			attr_dev(p, "class", "text-lg leading-tight");
-    			add_location(p, file, 30, 12, 1250);
-    			attr_dev(div0, "class", "flex-1 max-w-md z-20 m-2 text-light svelte-bjvi9g");
-    			attr_dev(div0, "id", "intro-text");
-    			add_location(div0, file, 28, 8, 1116);
-    			attr_dev(div1, "class", "flex-1 max-w-6xl mx-auto flex gap-4 justify-between items-center");
-    			add_location(div1, file, 25, 4, 910);
+    			add_location(p, file, 218, 12, 19881);
+    			attr_dev(div1, "class", "flex-1 max-w-md z-20 m-2 text-light svelte-e1enz");
+    			attr_dev(div1, "id", "intro-text");
+    			add_location(div1, file, 216, 8, 19736);
+    			attr_dev(div2, "class", "flex-1 max-w-7xl mx-auto flex gap-4 justify-between items-center");
+    			add_location(div2, file, 56, 4, 1077);
     			attr_dev(section, "class", "w-screen h-screen bg-light bg-texture bg-opacity-50 flex items-center");
     			attr_dev(section, "id", "home");
-    			add_location(section, file, 12, 0, 206);
+    			add_location(section, file, 53, 0, 879);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, section, anchor);
-    			append_dev(section, img0);
+    			append_dev(section, img);
     			append_dev(section, t0);
-    			append_dev(section, div1);
-    			append_dev(div1, img1);
-    			append_dev(div1, t1);
-    			append_dev(div1, div0);
-    			append_dev(div0, h1);
-    			append_dev(div0, t3);
-    			append_dev(div0, p);
+    			append_dev(section, div2);
+    			append_dev(div2, div0);
+    			append_dev(div0, svg);
+    			append_dev(svg, g14);
+    			append_dev(g14, g13);
+    			append_dev(g13, g12);
+    			append_dev(g12, g0);
+    			append_dev(g0, path0);
+    			append_dev(g0, path1);
+    			append_dev(g0, path2);
+    			append_dev(g0, path3);
+    			append_dev(g0, path4);
+    			append_dev(g0, path5);
+    			append_dev(g0, path6);
+    			append_dev(g0, path7);
+    			append_dev(g12, g9);
+    			append_dev(g9, g3);
+    			append_dev(g3, g1);
+    			append_dev(g1, path8);
+    			append_dev(g1, path9);
+    			append_dev(g1, path10);
+    			append_dev(g3, g2);
+    			append_dev(g2, path11);
+    			append_dev(g2, path12);
+    			append_dev(g2, path13);
+    			append_dev(g2, path14);
+    			append_dev(g9, g4);
+    			append_dev(g4, path15);
+    			append_dev(g4, path16);
+    			append_dev(g9, g5);
+    			append_dev(g5, path17);
+    			append_dev(g5, path18);
+    			append_dev(g9, g6);
+    			append_dev(g6, path19);
+    			append_dev(g6, path20);
+    			append_dev(g6, path21);
+    			append_dev(g6, path22);
+    			append_dev(g6, path23);
+    			append_dev(g6, path24);
+    			append_dev(g9, g7);
+    			append_dev(g7, path25);
+    			append_dev(g7, path26);
+    			append_dev(g7, path27);
+    			append_dev(g9, g8);
+    			append_dev(g8, path28);
+    			append_dev(g8, path29);
+    			append_dev(g9, path30);
+    			append_dev(g12, g10);
+    			append_dev(g10, path31);
+    			append_dev(g10, path32);
+    			append_dev(g10, path33);
+    			append_dev(g12, g11);
+    			append_dev(g11, path34);
+    			append_dev(g11, path35);
+    			append_dev(g11, path36);
+    			append_dev(g11, path37);
+    			append_dev(g11, path38);
+    			append_dev(g11, path39);
+    			append_dev(g11, path40);
+    			append_dev(div2, t1);
+    			append_dev(div2, div1);
+    			append_dev(div1, h1);
+    			append_dev(div1, t3);
+    			append_dev(div1, p);
     			p.innerHTML = /*bio*/ ctx[0];
     		},
     		p: function update(ctx, [dirty]) {
@@ -539,7 +963,7 @@ var app = (function () {
 
     	$$self.$inject_state = $$props => {
     		if ("triangle" in $$props) $$invalidate(1, triangle = $$props.triangle);
-    		if ("woman" in $$props) $$invalidate(2, woman = $$props.woman);
+    		if ("woman" in $$props) woman = $$props.woman;
     		if ("bio" in $$props) $$invalidate(0, bio = $$props.bio);
     	};
 
@@ -547,7 +971,7 @@ var app = (function () {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [bio, triangle, woman];
+    	return [bio, triangle];
     }
 
     class Home extends SvelteComponentDev {
@@ -4489,27 +4913,27 @@ var app = (function () {
 
     function get_each_context_1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[9] = list[i][0];
-    	child_ctx[10] = list[i][1];
+    	child_ctx[10] = list[i][0];
+    	child_ctx[11] = list[i][1];
     	return child_ctx;
     }
 
     function get_each_context$1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[5] = list[i][0];
-    	child_ctx[6] = list[i][1];
+    	child_ctx[6] = list[i][0];
+    	child_ctx[7] = list[i][1];
     	return child_ctx;
     }
 
-    // (52:6) {#each Object.entries(groupContent) as [name, svg]}
+    // (55:6) {#each Object.entries(groupContent) as [name, svg]}
     function create_each_block_1(ctx) {
     	let button;
     	let span1;
     	let html_tag;
-    	let raw_value = /*svg*/ ctx[10] + "";
+    	let raw_value = /*svg*/ ctx[11] + "";
     	let t0;
     	let span0;
-    	let t1_value = /*name*/ ctx[9] + "";
+    	let t1_value = /*name*/ ctx[10] + "";
     	let t1;
     	let t2;
     	let button_alt_value;
@@ -4518,11 +4942,11 @@ var app = (function () {
     	let dispose;
 
     	function click_handler(...args) {
-    		return /*click_handler*/ ctx[2](/*name*/ ctx[9], ...args);
+    		return /*click_handler*/ ctx[3](/*name*/ ctx[10], ...args);
     	}
 
     	function hover_handler(...args) {
-    		return /*hover_handler*/ ctx[3](/*name*/ ctx[9], ...args);
+    		return /*hover_handler*/ ctx[4](/*name*/ ctx[10], ...args);
     	}
 
     	const block = {
@@ -4535,13 +4959,13 @@ var app = (function () {
     			t2 = space();
     			html_tag = new HtmlTag(t0);
     			attr_dev(span0, "class", "tooltiptext svelte-1aasopk");
-    			add_location(span0, file$4, 55, 0, 1622);
+    			add_location(span0, file$4, 58, 0, 1749);
     			attr_dev(span1, "class", "tooltip svelte-1aasopk");
-    			add_location(span1, file$4, 53, 4, 1573);
+    			add_location(span1, file$4, 56, 4, 1700);
     			attr_dev(button, "class", "inline-block m-1 sm:m-2 w-12 sm:w-16 relative focus:outline-none focus-visible:shadow-outline");
-    			attr_dev(button, "alt", button_alt_value = /*name*/ ctx[9]);
-    			attr_dev(button, "title", button_title_value = /*name*/ ctx[9]);
-    			add_location(button, file$4, 52, 2, 1366);
+    			attr_dev(button, "alt", button_alt_value = /*name*/ ctx[10]);
+    			attr_dev(button, "title", button_title_value = /*name*/ ctx[10]);
+    			add_location(button, file$4, 55, 2, 1493);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4575,21 +4999,24 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(52:6) {#each Object.entries(groupContent) as [name, svg]}",
+    		source: "(55:6) {#each Object.entries(groupContent) as [name, svg]}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (49:4) {#each Object.entries(icons) as [groupName, groupContent]}
+    // (50:4) {#each Object.entries(icons) as [groupName, groupContent]}
     function create_each_block$1(ctx) {
     	let div;
-    	let t0_value = /*groupName*/ ctx[5] + "";
+    	let t0_value = /*groupName*/ ctx[6] + "";
     	let t0;
     	let t1;
+    	let img;
+    	let img_src_value;
+    	let t2;
     	let each_1_anchor;
-    	let each_value_1 = Object.entries(/*groupContent*/ ctx[6]);
+    	let each_value_1 = Object.entries(/*groupContent*/ ctx[7]);
     	validate_each_argument(each_value_1);
     	let each_blocks = [];
 
@@ -4602,19 +5029,26 @@ var app = (function () {
     			div = element("div");
     			t0 = text(t0_value);
     			t1 = space();
+    			img = element("img");
+    			t2 = space();
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
     			each_1_anchor = empty();
-    			attr_dev(div, "class", "py-1 px-3 bg-gradient-to-r from-teal-900 to-teal-700 text-white uppercase font-bold tracking-wide mt-4 mb-1 rounded-sm");
-    			add_location(div, file$4, 50, 4, 1156);
+    			if (img.src !== (img_src_value = /*dots*/ ctx[2])) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "class", "absolute right-0 top-0 h-full");
+    			add_location(img, file$4, 52, 6, 1365);
+    			attr_dev(div, "class", "py-1 px-3 bg-gradient-to-r from-teal-900 to-teal-700 text-white uppercase font-bold tracking-wide mt-4 mb-1 rounded-sm overflow-hidden relative");
+    			add_location(div, file$4, 51, 4, 1190);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
     			append_dev(div, t0);
-    			insert_dev(target, t1, anchor);
+    			append_dev(div, t1);
+    			append_dev(div, img);
+    			insert_dev(target, t2, anchor);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].m(target, anchor);
@@ -4624,7 +5058,7 @@ var app = (function () {
     		},
     		p: function update(ctx, dirty) {
     			if (dirty & /*Object, icons, labelName*/ 2) {
-    				each_value_1 = Object.entries(/*groupContent*/ ctx[6]);
+    				each_value_1 = Object.entries(/*groupContent*/ ctx[7]);
     				validate_each_argument(each_value_1);
     				let i;
 
@@ -4649,7 +5083,7 @@ var app = (function () {
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div);
-    			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(t2);
     			destroy_each(each_blocks, detaching);
     			if (detaching) detach_dev(each_1_anchor);
     		}
@@ -4659,7 +5093,7 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(49:4) {#each Object.entries(icons) as [groupName, groupContent]}",
+    		source: "(50:4) {#each Object.entries(icons) as [groupName, groupContent]}",
     		ctx
     	});
 
@@ -4698,13 +5132,13 @@ var app = (function () {
     			}
 
     			attr_dev(h2, "class", "section-header");
-    			add_location(h2, file$4, 46, 4, 1024);
-    			add_location(p, file$4, 47, 4, 1067);
+    			add_location(h2, file$4, 47, 4, 1058);
+    			add_location(p, file$4, 48, 4, 1101);
     			attr_dev(div, "class", "section-container");
-    			add_location(div, file$4, 45, 2, 988);
+    			add_location(div, file$4, 46, 2, 1022);
     			attr_dev(section, "class", "section bg-light");
     			attr_dev(section, "id", "skills");
-    			add_location(section, file$4, 44, 0, 939);
+    			add_location(section, file$4, 45, 0, 973);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4725,7 +5159,7 @@ var app = (function () {
     		p: function update(ctx, [dirty]) {
     			if (dirty & /*skillsIntro*/ 1) set_data_dev(t2, /*skillsIntro*/ ctx[0]);
 
-    			if (dirty & /*Object, icons, labelName*/ 2) {
+    			if (dirty & /*Object, icons, labelName, dots*/ 6) {
     				each_value = Object.entries(icons);
     				validate_each_argument(each_value);
     				let i;
@@ -4772,6 +5206,7 @@ var app = (function () {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("Skills", slots, []);
     	let { skillsIntro } = $$props;
+    	let dots = "./assets/dots.svg";
     	let tooltipTip = "./assets/tooltip-tip.svg";
     	let labelName = "";
     	const writable_props = ["skillsIntro"];
@@ -4790,12 +5225,14 @@ var app = (function () {
     	$$self.$capture_state = () => ({
     		skillsIntro,
     		icons,
+    		dots,
     		tooltipTip,
     		labelName
     	});
 
     	$$self.$inject_state = $$props => {
     		if ("skillsIntro" in $$props) $$invalidate(0, skillsIntro = $$props.skillsIntro);
+    		if ("dots" in $$props) $$invalidate(2, dots = $$props.dots);
     		if ("tooltipTip" in $$props) tooltipTip = $$props.tooltipTip;
     		if ("labelName" in $$props) $$invalidate(1, labelName = $$props.labelName);
     	};
@@ -4804,7 +5241,7 @@ var app = (function () {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [skillsIntro, labelName, click_handler, hover_handler];
+    	return [skillsIntro, labelName, dots, click_handler, hover_handler];
     }
 
     class Skills extends SvelteComponentDev {
@@ -4934,7 +5371,7 @@ var app = (function () {
 
     function create_fragment$5(ctx) {
     	let section;
-    	let div5;
+    	let div4;
     	let h2;
     	let t1;
     	let div0;
@@ -4949,22 +5386,22 @@ var app = (function () {
     	let p;
     	let t7;
     	let form;
+    	let input0;
+    	let t8;
     	let label0;
     	let div1;
-    	let t9;
-    	let input0;
     	let t10;
+    	let input1;
+    	let t11;
     	let label1;
     	let div2;
-    	let t12;
-    	let textarea;
     	let t13;
+    	let textarea;
+    	let t14;
     	let label2;
     	let div3;
-    	let t15;
-    	let input1;
     	let t16;
-    	let div4;
+    	let input2;
     	let t17;
     	let button;
     	let t18;
@@ -4973,7 +5410,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			section = element("section");
-    			div5 = element("div");
+    			div4 = element("div");
     			h2 = element("h2");
     			h2.textContent = "Contact";
     			t1 = space();
@@ -4992,25 +5429,25 @@ var app = (function () {
     			p.textContent = "Or, send me a message using the form below and I will respond to you soon:";
     			t7 = space();
     			form = element("form");
+    			input0 = element("input");
+    			t8 = space();
     			label0 = element("label");
     			div1 = element("div");
     			div1.textContent = "Subject:";
-    			t9 = space();
-    			input0 = element("input");
     			t10 = space();
+    			input1 = element("input");
+    			t11 = space();
     			label1 = element("label");
     			div2 = element("div");
     			div2.textContent = "Message:";
-    			t12 = space();
-    			textarea = element("textarea");
     			t13 = space();
+    			textarea = element("textarea");
+    			t14 = space();
     			label2 = element("label");
     			div3 = element("div");
     			div3.textContent = "Your email:";
-    			t15 = space();
-    			input1 = element("input");
     			t16 = space();
-    			div4 = element("div");
+    			input2 = element("input");
     			t17 = space();
     			button = element("button");
     			t18 = text("submit\n        ");
@@ -5034,45 +5471,45 @@ var app = (function () {
     			add_location(div0, file$5, 14, 4, 563);
     			attr_dev(p, "class", "pt-3 sm:px-4 md:px-10 lg:px-16");
     			add_location(p, file$5, 23, 4, 1078);
+    			attr_dev(input0, "type", "hidden");
+    			attr_dev(input0, "name", "form-name");
+    			input0.value = "contact";
+    			add_location(input0, file$5, 26, 6, 1285);
     			attr_dev(div1, "class", "inline-block w-24");
-    			add_location(div1, file$5, 27, 8, 1359);
-    			attr_dev(input0, "name", "subject");
-    			attr_dev(input0, "type", "text");
-    			attr_dev(input0, "class", "w-48 sm:w-64 text-gray-800 px-2 py-1 rounded bg-gray-200");
-    			add_location(input0, file$5, 31, 8, 1434);
+    			add_location(div1, file$5, 28, 8, 1397);
+    			attr_dev(input1, "name", "subject");
+    			attr_dev(input1, "type", "text");
+    			attr_dev(input1, "class", "w-48 sm:w-64 text-gray-800 px-2 py-1 rounded bg-gray-200");
+    			add_location(input1, file$5, 32, 8, 1472);
     			attr_dev(label0, "class", "block py-1 w-max-content");
-    			add_location(label0, file$5, 26, 6, 1310);
+    			add_location(label0, file$5, 27, 6, 1348);
     			attr_dev(div2, "class", "inline-block w-24 align-top");
-    			add_location(div2, file$5, 34, 8, 1606);
+    			add_location(div2, file$5, 35, 8, 1644);
     			attr_dev(textarea, "name", "message");
     			attr_dev(textarea, "class", "w-48 sm:w-64 text-gray-800 px-2 py-1 rounded bg-gray-200");
     			attr_dev(textarea, "rows", "5");
-    			add_location(textarea, file$5, 37, 8, 1690);
+    			add_location(textarea, file$5, 38, 8, 1728);
     			attr_dev(label1, "class", "block py-1 w-max-content");
-    			add_location(label1, file$5, 33, 6, 1557);
+    			add_location(label1, file$5, 34, 6, 1595);
     			attr_dev(div3, "class", "inline-block w-24");
-    			add_location(div3, file$5, 40, 8, 1864);
-    			attr_dev(input1, "name", "email");
-    			attr_dev(input1, "type", "email");
-    			attr_dev(input1, "class", "w-48 sm:w-64 text-gray-800 px-2 py-1 rounded bg-gray-200");
-    			add_location(input1, file$5, 43, 8, 1941);
+    			add_location(div3, file$5, 41, 8, 1909);
+    			attr_dev(input2, "name", "email");
+    			attr_dev(input2, "type", "email");
+    			attr_dev(input2, "class", "w-48 sm:w-64 text-gray-800 px-2 py-1 rounded bg-gray-200");
+    			add_location(input2, file$5, 44, 8, 1986);
     			attr_dev(label2, "class", "block py-1 w-max-content");
-    			add_location(label2, file$5, 39, 6, 1815);
-    			attr_dev(div4, "data-netlify-recaptcha", "true");
-    			attr_dev(div4, "class", "py-1");
-    			add_location(div4, file$5, 45, 6, 2062);
+    			add_location(label2, file$5, 40, 6, 1860);
     			attr_dev(i2, "class", "fas fa-paper-plane ml-1 inline-block transition-spacing duration-300");
-    			add_location(i2, file$5, 48, 8, 2354);
+    			add_location(i2, file$5, 50, 8, 2417);
     			attr_dev(button, "type", "submit");
     			attr_dev(button, "class", "group rounded-full bg-gradient-to-r from-blue-800 to-blue-700 hover:from-blue-700 hover:to-blue-600 py-1 px-5 uppercase tracking-wide ml-24 mt-2 transition-spacing duration-300");
-    			add_location(button, file$5, 46, 6, 2123);
-    			attr_dev(form, "name", "contact-form");
+    			add_location(button, file$5, 47, 6, 2178);
+    			attr_dev(form, "name", "contact");
     			attr_dev(form, "method", "POST");
     			attr_dev(form, "class", "mx-auto w-max-content py-2");
-    			attr_dev(form, "data-netlify", "true");
     			add_location(form, file$5, 25, 4, 1208);
-    			attr_dev(div5, "class", "section-container");
-    			add_location(div5, file$5, 12, 2, 483);
+    			attr_dev(div4, "class", "section-container");
+    			add_location(div4, file$5, 12, 2, 483);
     			attr_dev(section, "class", "section bg-blue-900 text-light");
     			attr_dev(section, "id", "contact");
     			add_location(section, file$5, 11, 0, 419);
@@ -5082,10 +5519,10 @@ var app = (function () {
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, section, anchor);
-    			append_dev(section, div5);
-    			append_dev(div5, h2);
-    			append_dev(div5, t1);
-    			append_dev(div5, div0);
+    			append_dev(section, div4);
+    			append_dev(div4, h2);
+    			append_dev(div4, t1);
+    			append_dev(div4, div0);
     			append_dev(div0, a0);
     			append_dev(a0, i0);
     			append_dev(a0, span0);
@@ -5093,26 +5530,26 @@ var app = (function () {
     			append_dev(div0, a1);
     			append_dev(a1, i1);
     			append_dev(a1, span1);
-    			append_dev(div5, t5);
-    			append_dev(div5, p);
-    			append_dev(div5, t7);
-    			append_dev(div5, form);
+    			append_dev(div4, t5);
+    			append_dev(div4, p);
+    			append_dev(div4, t7);
+    			append_dev(div4, form);
+    			append_dev(form, input0);
+    			append_dev(form, t8);
     			append_dev(form, label0);
     			append_dev(label0, div1);
-    			append_dev(label0, t9);
-    			append_dev(label0, input0);
-    			append_dev(form, t10);
+    			append_dev(label0, t10);
+    			append_dev(label0, input1);
+    			append_dev(form, t11);
     			append_dev(form, label1);
     			append_dev(label1, div2);
-    			append_dev(label1, t12);
+    			append_dev(label1, t13);
     			append_dev(label1, textarea);
-    			append_dev(form, t13);
+    			append_dev(form, t14);
     			append_dev(form, label2);
     			append_dev(label2, div3);
-    			append_dev(label2, t15);
-    			append_dev(label2, input1);
-    			append_dev(form, t16);
-    			append_dev(form, div4);
+    			append_dev(label2, t16);
+    			append_dev(label2, input2);
     			append_dev(form, t17);
     			append_dev(form, button);
     			append_dev(button, t18);
@@ -5271,8 +5708,14 @@ var app = (function () {
     		"Trick or Treat!",
     		"Multiplayer Trivia Game"
     	],
-    	bio: "My name is Laura, I am a recent college graduate and software developer based in Berlin, Germany. I love learning about all things web development and creating sites that walk the line between beautiful design and a fast, intuitive experience for the user. If you're interested in working together, please <a href='#contact' class='border-b-2 border-light'>get in touch</a> with me.",
-    	skillsIntro: "These are the languages, tools, and frameworks that I've been working with recently."
+    	bio: "I'm a recent college graduate and software developer based in Berlin, Germany. I love learning about all things web development and creating sites that walk the line between beautiful design and a fast, intuitive experience for the user. If you're interested in working together, please <a href='#contact' class='border-b-2 border-light'>get in touch</a> with me.",
+    	skillsIntro: "These are the languages, tools, and frameworks that I've been working with recently.",
+    	resume: [
+    		"quandoo",
+    		"surescripts",
+    		"tutoring",
+    		"marquette"
+    	]
     },
     	"/1": {
     	projects: [
@@ -5451,6 +5894,7 @@ var app = (function () {
     	let main;
     	let nav;
     	let a0;
+    	let a0_href_value;
     	let t1;
     	let a1;
     	let t3;
@@ -5516,21 +5960,21 @@ var app = (function () {
     			create_component(contact.$$.fragment);
     			t11 = space();
     			create_component(footer.$$.fragment);
-    			attr_dev(a0, "href", "#home");
+    			attr_dev(a0, "href", a0_href_value = "#home");
     			attr_dev(a0, "class", "mx-1 sm:mx-2 font-display text-base sm:text-lg");
-    			add_location(a0, file$7, 21, 2, 799);
+    			add_location(a0, file$7, 22, 2, 859);
     			attr_dev(a1, "href", "#projects");
     			attr_dev(a1, "class", "mx-1 sm:mx-2 border-b-2 border-light text-sm sm:text-base");
-    			add_location(a1, file$7, 22, 2, 890);
+    			add_location(a1, file$7, 23, 2, 952);
     			attr_dev(a2, "href", "#skills");
     			attr_dev(a2, "class", "mx-1 sm:mx-2 border-b-2 border-light text-sm sm:text-base");
-    			add_location(a2, file$7, 23, 2, 991);
+    			add_location(a2, file$7, 24, 2, 1053);
     			attr_dev(a3, "href", "#contact");
     			attr_dev(a3, "class", "mx-1 sm:mx-2 my-1 px-3 sm:px-5 py-1 rounded-full bg-teal-800 hover:bg-teal-700 text-white whitespace-no-wrap shadow-lg font-bold shadow text-sm sm:text-md");
-    			add_location(a3, file$7, 25, 2, 1168);
+    			add_location(a3, file$7, 26, 2, 1230);
     			attr_dev(nav, "class", nav_class_value = "fixed z-30 p-2 sm:px-4 md:py-4 md:px-6 text-light w-full " + (/*y*/ ctx[0] > 200 ? "bg-navy-900 shadow-lg" : ""));
-    			add_location(nav, file$7, 20, 1, 678);
-    			add_location(main, file$7, 19, 0, 670);
+    			add_location(nav, file$7, 21, 1, 738);
+    			add_location(main, file$7, 20, 0, 730);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5630,6 +6074,7 @@ var app = (function () {
     	let projects = pageContent.projects || content.default.projects;
     	let bio = pageContent.bio || content.default.bio;
     	let skillsIntro = pageContent.skillsIntro || content.default.skillsIntro;
+    	let resume = pageContent.resume || content.default.resume;
     	console.log($location);
     	console.log(JSON.stringify(location));
     	let y;
@@ -5655,6 +6100,7 @@ var app = (function () {
     		projects,
     		bio,
     		skillsIntro,
+    		resume,
     		y,
     		$location
     	});
@@ -5664,6 +6110,7 @@ var app = (function () {
     		if ("projects" in $$props) $$invalidate(1, projects = $$props.projects);
     		if ("bio" in $$props) $$invalidate(2, bio = $$props.bio);
     		if ("skillsIntro" in $$props) $$invalidate(3, skillsIntro = $$props.skillsIntro);
+    		if ("resume" in $$props) resume = $$props.resume;
     		if ("y" in $$props) $$invalidate(0, y = $$props.y);
     	};
 

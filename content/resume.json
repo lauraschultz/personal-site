@@ -1,0 +1,30 @@
+{
+	"surescripts": {
+		"company": "Surescripts",
+		"job": "Software Engineering Intern",
+		"location": "Minneapolis, MN, USA",
+		"dates": "May 2019 - Nov 2019",
+		"content": "<ul><li>Developed a full-stack web application for Surescripts to improve and automate the customer upgrade process</li><li>Used tools such as Angular, C#, and Oracle to gather customer responses and save them in a database</li><li>Developed software using Agile methodology and version-control software</li></ul>"
+	},
+	"marquette": {
+		"company": "Marquette University",
+		"job": "Undergraduate Researcher",
+		"location": "Milwaukee, WI, USA",
+		"dates": "May 2018 - Aug 2018",
+		"content": "<ul><li>Worked with a team of undergraduates and graduate students to research algorithmic bias in crime mapping</li><li>Presented research at a poster session with other researchers and Marquette faculty</li></ul>"
+	},
+	"quandoo": {
+		"company": "Quandoo",
+		"job": "Incoming Junior Software Developer",
+		"location": "Berlin, Germany",
+		"dates": "Jan 2021 - Present",
+		"content": ""
+	},
+	"tutoring": {
+		"company": "Mills College",
+		"job": "Peer Tutor",
+		"location": "Oakland, CA, USA",
+		"dates": "Jan 2021 - Present",
+		"content": ""
+	}
+}
