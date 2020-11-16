@@ -1,31 +1,27 @@
 {
-	"BikeshareBuddy": {
+	"bikeshare": {
 		"bodyText": "BikeshareBuddy lets users save a list of their favorite bikeshare stations to easily find out if there are available docks and/or bikes. Bikeshare system data is pulled from the General Bikeshare Feed Specification data. Built with Angular, Firebase, and the Google Maps API.",
 		"title": "BikeshareBuddy",
 		"titleImg": "./assets/bb_logo.svg",
-		"previewImg": "./assets/project-images/bb.png",
 		"sourceCodeLink": "https://github.com/lauraschultz/BikeshareBuddy",
 		"siteLink": "https://lauraschultz.github.io/BikeshareBuddy/search"
 	},
-	"Chew": {
+	"chew": {
 		"bodyText": "Chew allows groups of people to easily decide on a restaurant together. After someone begins a session and shares the link, others can begin adding restaurants to the shared list and voting on each other's suggestions. Restaurant data is pulled from the Yelp API. Built using React, NodeJS, express, Firebase, and Socket.io.",
 		"title": "Chew",
 		"titleImg": "./assets/chew_logo.svg",
-		"previewImg": "./assets/project-images/chew.png",
 		"sourceCodeLink": "https://github.com/lauraschultz/chew",
 		"siteLink": "https://lauraschultz.dev/chew"
 	},
-	"Multiplayer Trivia Game": {
+	"trivia": {
 		"bodyText": "Using questions retrieved from the Open Trivia Database, users can compete against their friends and see the live point total as they play. Built with React, NodeJS, express, and Socket.io.",
 		"title": "Multiplayer Trivia Game",
-		"previewImg": "./assets/project-images/trivia.png",
 		"sourceCodeLink": "https://github.com/lauraschultz/trivia",
 		"siteLink": "https://lauraschultz.github.io/trivia/"
 	},
-	"Trick or Treat!": {
+	"halloween": {
 		"bodyText": "For a safe and socially-distant halloween 2020! On the user side, kids and parents can request candy, and on the admin side, candy orders appear with an accompanying sound effect. Built using React and Firebase.",
 		"title": "Trick or Treat!",
-		"previewImg": "./assets/project-images/trickOrTreat.png",
 		"sourceCodeLink": "https://github.com/lauraschultz/trickOrTreat",
 		"siteLink": "https://lauraschultz.dev/trickOrTreat"
 	}

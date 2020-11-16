@@ -3,10 +3,7 @@ module.exports = {
 		// removeDeprecatedGapUtilities: true,
 		// purgeLayersByDefault: true,
 	},
-	purge: {
-		enabled: false,
-		content: ["./src/*.svelte"],
-	},
+	purge: ["./src/*.svelte"],
 	theme: {
 		fontFamily: {
 			display: "Calistoga",
