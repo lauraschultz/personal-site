@@ -45,10 +45,12 @@
         <input name="email" type="email" class="w-48 sm:w-64 text-gray-800 px-2 py-1 rounded bg-gray-200" />
       </label>
       <!-- <div data-netlify-recaptcha="true" class='py-1'></div> -->
-      <button type="submit"
-        class="group rounded-full bg-gradient-to-r from-blue-800 to-blue-700 hover:from-blue-700 hover:to-blue-600 py-1 px-5 uppercase tracking-wide ml-24 mt-2 transition-spacing duration-300">
-        submit
-        <i class="fas fa-paper-plane ml-1 inline-block transition-spacing duration-300"></i>
+      <button type="submit">
+        <div
+          class="group rounded-full bg-gradient-to-r from-blue-800 to-blue-700 hover:from-blue-700 hover:to-blue-600 py-1 px-5 uppercase tracking-wide ml-24 mt-2 hover:pr-4 transition-spacing duration-300">
+          submit
+          <i class="fas fa-paper-plane ml-1 group-hover:ml-2 group-hover:pb-1 transition-spacing duration-300"></i>
+        </div>
       </button>
     </form>
 

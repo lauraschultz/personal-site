@@ -50,7 +50,7 @@
     {#each Object.entries(icons) as [groupName, groupContent]}
 
     <div class="py-1 px-3 bg-gradient-to-r from-teal-900 to-teal-700 text-white uppercase font-bold tracking-wide mt-4 mb-1 rounded-sm overflow-hidden relative">{groupName}
-      <img src={dots} class="absolute right-0 top-0 h-full" />
+      <img src={dots} class="absolute right-0 top-0 h-full -mr-1" alt=""/>
     </div>
       {#each Object.entries(groupContent) as [name, svg]}
   <button class="inline-block m-1 sm:m-2 w-12 sm:w-16 relative focus:outline-none focus-visible:shadow-outline" alt={name} title={name} on:click="{() => labelName=name}" on:hover="{() => labelName=name}">

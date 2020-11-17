@@ -17,15 +17,15 @@
 
 
 <Modal bind:open={modalOpen}>
-    <div class="bg-white"><img src="{`./assets/project-images/${name}_main.png`}" /></div>
+    <div class="bg-white"><img src="{`./assets/project-images/${name}_main.png`}" alt="screenshow of {p.title}" /></div>
 </Modal>
 <div class="flex flex-wrap my-4 md:my-6 lg:my-10 items-center gap-2 lg:gap-4">
     <div class="{'flex-initial w-full md:w-5/12 order-1 '+ (imageFirst ? 'md:order-1' : 'md:order-2')} ">
         <!-- <BlurhashImage src="{`./assets/project-images/${name}_main2.png`} " hash="{blurHash[name+'_main.png']}"
             width="800" height="500" /> -->
         <!-- <BlurHashImage imageUrl="{name + '_main.png'}" /> -->
-        <button on:click="{() => {console.log('baba booey'); modalOpen = true}}">
-            <img src="{`./assets/project-images/${name}_main.png`}" />
+        <button on:click="{() => modalOpen = true}">
+            <img src="{`./assets/project-images/${name}_main.png`}" alt="screenshow of {p.title}" />
         </button>
 
 

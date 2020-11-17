@@ -33,7 +33,6 @@
   function clickOutside(node, { enabled, onClose }) {
 
     const handleOutsideClick = ({ target }) => {
-      console.log(`clickOutside, enabled is ${enabled}`)
       if (!node.contains(target) && gEnabled) {
         console.log('closing')
         onClose();
