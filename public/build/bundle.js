@@ -8316,7 +8316,7 @@ var app = (function () {
     			h3 = element("h3");
     			t = text(t_value);
     			attr_dev(h3, "class", "font-bold text-2xl mb-2");
-    			add_location(h3, file$4, 46, 8, 2049);
+    			add_location(h3, file$4, 46, 8, 2071);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h3, anchor);
@@ -8353,7 +8353,7 @@ var app = (function () {
     			attr_dev(img, "class", "w-40 mb-2");
     			if (img.src !== (img_src_value = /*p*/ ctx[3].titleImg)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = /*p*/ ctx[3].title);
-    			add_location(img, file$4, 44, 12, 1965);
+    			add_location(img, file$4, 44, 12, 1987);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -8466,36 +8466,36 @@ var app = (function () {
     			attr_dev(img, "class", img_class_value = /*post*/ ctx[2] ? "cursor-pointer" : "");
     			if (img.src !== (img_src_value = `./assets/project-images/${/*name*/ ctx[0]}_main.png`)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", img_alt_value = "screenshot of " + /*p*/ ctx[3].title);
-    			add_location(img, file$4, 36, 8, 1591);
+    			add_location(img, file$4, 36, 8, 1613);
     			attr_dev(div0, "class", div0_class_value = "" + ("flex-initial w-full md:w-5/12 order-1 " + (/*imageFirst*/ ctx[1] ? "md:order-1" : "md:order-2") + " "));
-    			add_location(div0, file$4, 31, 4, 1190);
+    			add_location(div0, file$4, 31, 4, 1212);
     			attr_dev(p_1, "class", "leading-tight");
-    			add_location(p_1, file$4, 48, 8, 2122);
+    			add_location(p_1, file$4, 48, 8, 2144);
     			attr_dev(i0, "class", "fas fa-plus-circle inline-block mr-2");
-    			add_location(i0, file$4, 49, 210, 2374);
+    			add_location(i0, file$4, 49, 210, 2396);
 
     			attr_dev(a0, "class", a0_class_value = /*post*/ ctx[2]
     			? "py-1 px-5 rounded-full text-white mt-2 inline-block shadow bg-gradient-to-r from-blue-900 to-blue-800 hover:from-blue-800 hover:to-blue-700"
     			: "hidden");
 
     			attr_dev(a0, "href", a0_href_value = `#/project/${/*name*/ ctx[0]}`);
-    			add_location(a0, file$4, 49, 8, 2172);
+    			add_location(a0, file$4, 49, 8, 2194);
     			attr_dev(i1, "class", "fas fa-link inline-block mr-2");
-    			add_location(i1, file$4, 50, 201, 2640);
+    			add_location(i1, file$4, 50, 201, 2662);
     			attr_dev(a1, "class", "py-1 px-4 rounded-full text-white mt-2 inline-block shadow bg-gradient-to-r from-blue-800 to-blue-700 hover:from-blue-700 hover:to-blue-600 text-sm");
     			attr_dev(a1, "href", a1_href_value = /*p*/ ctx[3].siteLink);
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$4, 50, 8, 2447);
+    			add_location(a1, file$4, 50, 8, 2469);
     			attr_dev(i2, "class", "fas fa-code inline-block mr-2");
-    			add_location(i2, file$4, 51, 207, 2906);
+    			add_location(i2, file$4, 51, 207, 2928);
     			attr_dev(a2, "class", "py-1 px-4 rounded-full text-white mt-2 inline-block shadow bg-gradient-to-r from-blue-700 to-blue-600 hover:from-blue-600 hover:to-blue-500 text-sm");
     			attr_dev(a2, "href", a2_href_value = /*p*/ ctx[3].sourceCodeLink);
     			attr_dev(a2, "target", "_blank");
-    			add_location(a2, file$4, 51, 8, 2707);
+    			add_location(a2, file$4, 51, 8, 2729);
     			attr_dev(div1, "class", div1_class_value = " " + ("flex-1 w-full md:w-7/12 order-2 " + (/*imageFirst*/ ctx[1] ? "md:order-2" : "md:order-1")));
-    			add_location(div1, file$4, 42, 4, 1832);
+    			add_location(div1, file$4, 42, 4, 1854);
     			attr_dev(div2, "class", "flex flex-wrap py-8 md:py-10 lg:py-12 items-center gap-2 lg:gap-4");
-    			add_location(div2, file$4, 30, 0, 1106);
+    			add_location(div2, file$4, 30, 0, 1128);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -8649,7 +8649,7 @@ var app = (function () {
     	let { imageFirst = true } = $$props;
     	let postExists = false;
     	let post;
-    	fetch(`./assets/project-descriptions/${name}.md`, { mode: "no-cors" }).then(r => r.text()).catch().then(r => $$invalidate(2, post = r));
+    	fetch(`./assets/project-descriptions/${name}.md`, { mode: "no-cors" }).then(r => r.status >= 200 ? r.text() : undefined).then(r => $$invalidate(2, post = r));
     	library.add(faLink.faLink);
     	library.add(faCode.faCode);
     	library.add(faPlusCircle.faPlusCircle);
