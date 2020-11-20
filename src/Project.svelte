@@ -17,7 +17,7 @@
 
     let postExists = false;
     let post;
-    fetch(`./assets/project-descriptions/${name}.md`, { mode: 'no-cors' }).then(r => r.status >= 200 ? r.text() : undefined).then(r => post = r);
+    fetch(`./assets/project-descriptions/${name}.md`, { mode: 'no-cors' }).then(r => r.status < 299 && r.status >= 200 ? r.text() : new Promise(resolve => resolve(undefined))).then(r => post = r);
 
     library.add(faLink);
     library.add(faCode);
