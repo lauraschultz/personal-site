@@ -11,27 +11,45 @@
 		@apply font-body text-gray-900;
 	}
 	.section {
-		@apply w-screen p-2;
+		@apply w-screen px-2 py-4 sm:px-4 sm:py-10 md:p-16;
+	}
+	.project-post h1 {
+		@apply font-display text-5xl;
+	}
+	.project-post h2 {
+		@apply text-xl font-bold mt-2 md:mt-4;
+	}
+	.project-post p {
+		@apply py-1 px-2 md:py-2 md:px-4 text-justify;
+	}
+	.project-post ol {
+		@apply list-decimal pl-6;
+	}
+	.project-post img {
+		@apply mx-auto;
+	}
+	/* .section {
+		@apply w-screen px-2 py-4;
 	}
 	@screen sm {
 		.section {
-			@apply p-4;
+			@apply px-4 py-10;
 		}
 	}
 	@screen md {
 		.section {
-			@apply p-6;
+			@apply px-6 py-12;
 		}
 	}
 	@screen lg {
 		.section {
-			@apply p-12;
+			@apply p-16;
 		}
-	}
+	} */
 	.section-container {
 		@apply max-w-4xl mx-auto;
 	}
 	.section-header {
-		@apply inline-block text-4xl font-display pb-2;
+		@apply inline-block text-4xl font-display pb-2 leading-none;
 	}
 }

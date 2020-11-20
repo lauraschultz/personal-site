@@ -54,7 +54,7 @@
 <section class="w-screen h-screen bg-light bg-texture bg-opacity-50 flex items-center" id="home">
     <img src="{triangle}" class="absolute z-0 w-screen h-screen pointer-events-none" alt="" />
 
-    <div class="flex-1 max-w-7xl mx-auto flex gap-4 justify-between items-center">
+    <div class="flex-1 max-w-7xl mx-auto flex gap-4 justify-between items-center px-2">
         <!-- <img src="{woman}" class="hidden md:block md:flex-1 pointer-events-none max-w-sm z-10" alt="woman at desk" /> -->
         <div class="hidden md:block md:flex-1 pointer-events-none max-w-sm z-10">
             <svg width="100%" height="100%" viewBox="0 0 903 1251" fill="none" xmlns="http://www.w3.org/2000/svg">

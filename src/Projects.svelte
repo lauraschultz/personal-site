@@ -22,7 +22,10 @@
     <!-- <div class="h-6 bg-contain" style="background-image: url({blob}); background-repeat: repeat-x;"></div> -->
 
     <div class="section-container">
-        <h2 class="section-header">Projects</h2>
+        <div class="relative inline-block mb-3">
+            <h2 class="section-header -mb-3 z-20 relative">Projects</h2>
+            <div class="absolute bottom-0 bg-blue-600 py-2 w-full ml-2 opacity-50 z-10"></div>
+        </div>
         {#each projects as project, i}
             <Project name={project} imageFirst={i%2===0}/>
         {/each}

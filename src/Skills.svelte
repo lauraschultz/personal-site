@@ -8,7 +8,7 @@
 </script>
 
 <style>
-  .tooltip .tooltiptext::after {
+  .tooltiptext::after {
     content: " ";
     position: absolute;
     bottom: 100%;
@@ -19,44 +19,25 @@
     border-style: solid;
     border-color: transparent transparent black transparent;
   }
-
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-    margin-top: 8px;
-  }
-
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
 </style>
 
 <section class="section bg-light" id="skills">
   <div class="section-container">
-    <h2 class="section-header">Skills</h2>
+    <div class="relative inline-block mb-6 md:mb-10">
+      <h2 class="section-header -mb-3 z-20 relative">Skills</h2>
+      <div class="absolute bottom-0 bg-teal-600 py-2 w-full ml-2 opacity-50 z-10"></div>
+    </div>
     <p>{skillsIntro}</p>
     {#each Object.entries(icons) as [groupName, groupContent]}
 
     <div class="py-1 px-3 bg-gradient-to-r from-teal-900 to-teal-700 text-white uppercase font-bold tracking-wide mt-4 mb-1 rounded-sm overflow-hidden relative">{groupName}
-      <img src={dots} class="absolute right-0 top-0 h-full -mr-1" alt=""/>
+      <img src={dots} class="absolute right-0 top-0 h-full -mr-1 pointer-events-none" alt=""/>
     </div>
       {#each Object.entries(groupContent) as [name, svg]}
   <button class="inline-block m-1 sm:m-2 w-12 sm:w-16 relative focus:outline-none focus-visible:shadow-outline" alt={name} title={name} on:click="{() => labelName=name}" on:hover="{() => labelName=name}">
-    <span class="tooltip">
+    <span class="group">
               {@html svg}
-<span class="tooltiptext">{name}</span>
+<span class="tooltiptext invisible bg-gray-900 text-white rounded py-1 px-4 absolute group-hover:visible mt-2 transform -translate-x-1/2 z-20 whitespace-nowrap">{name}</span>
     </span>
         <!-- <span class="{(labelName===name ? 'absolute left-0 white-space-nowrap' : 'hidden')}">
                   <img class="ml-2" src={tooltipTip} />

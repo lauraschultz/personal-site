@@ -27,20 +27,23 @@ module.exports = {
 				blue: {
 					900: "#00587A",
 					800: "#0B698E",
-					700: "#1E7B9F",
-					600: "#2988AE",
+					700: "#1f7ea3",
+					600: "#2a8cb2",
+					500: "#3699bf",
 				},
 				navy: {
 					900: "#1F3147",
 					800: "#193D66",
 					700: "#294C75",
-					600: "#355B88",
+					600: "#365b87",
+					500: "#3e6798",
 				},
 				teal: {
 					900: "#008891",
 					800: "#1298A1",
 					700: "#34AAB2",
-					600: "#3DBAC2",
+					600: "#40b7bf",
+					500: "#5dbfcd",
 				},
 				light: "#ECECE9",
 			},
@@ -50,8 +53,11 @@ module.exports = {
 		},
 	},
 	variants: {
-		margin: ["responsive", "hover", "group-hover"],
-		padding: ["responsive", "hover", "group-hover", "focus"],
+		extend: {
+			visibility: ["group-hover"],
+			margin: ["hover", "group-hover"],
+			padding: ["hover", "group-hover", "focus"],
+		},
 	},
 	plugins: [],
 };

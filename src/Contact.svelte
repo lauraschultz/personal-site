@@ -11,17 +11,22 @@
 
 <section class="section bg-blue-900 text-light" id="contact">
   <div class="section-container">
-    <h2 class="section-header">Contact</h2>
+    <div class="relative inline-block mb-6 md:mb-10">
+      <h2 class="section-header -mb-3 z-20 relative">Contact</h2>
+      <div class="absolute bottom-0 bg-blue-600 py-2 w-full ml-2 opacity-50 z-10"></div>
+    </div>
+
     <div class="flex flex-wrap justify-around bg-texture p-4 rounded-sm">
       <a href="https://www.linkedin.com/in/lauraschultz/" target="_blank"
         class="w-full sm:w-auto flex-initial flex items-center"><i
           class="fab fa-linkedin fa-2x mr-2"></i><span>lauraschultz</span>
       </a>
       <a href="mailto:schultzlaurac@gmail.com" class="w-full sm:w-auto flex-initial flex items-center"><i
-          class="fas fa-envelope fa-2x mr-2"></i><span>schultzlaurac@gmail.com</span>
+          class="fas fa-envelope fa-2x mr-2"></i><span class="select-all">schultzlaurac@gmail.com</span>
       </a>
     </div>
-    <p class="pt-3 sm:px-4 md:px-10 lg:px-16">Or, send me a message using the form below and I will respond to you soon:
+    <p class="pt-3 sm:px-4 md:px-10 lg:px-16 italic text-sm leading-tight">Or, send me a message using the form below
+      and I will respond to you soon:
     </p>
     <form name="contact" method="POST" class="mx-auto w-max-content py-2">
       <input type="hidden" name="form-name" value="contact" />
