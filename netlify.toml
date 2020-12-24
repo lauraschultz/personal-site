@@ -11,3 +11,8 @@
     from = "/chew/*"
     to = "https://chewapp.netlify.app/chew/:splat"
     status = 200
+
+[[redirects]]
+    from = "/library/*"
+    to = "https://little-free-library-walk.netlify.app/:splat"
+    status = 200
