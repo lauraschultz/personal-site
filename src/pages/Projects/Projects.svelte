@@ -1,5 +1,5 @@
 <script>
-	import Divider1 from "../../shared/dividers/divider1.svelte";
+	import Divider1 from "../../shared/dividers/Divider1.svelte";
 	import Project from "./Project.svelte";
 	export let projects;
 </script>
