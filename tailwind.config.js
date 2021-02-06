@@ -1,10 +1,12 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
 	future: {
 		// removeDeprecatedGapUtilities: true,
 		// purgeLayersByDefault: true,
 	},
 	purge: {
-		enabled: true,
+		enabled: process.env.NODE_ENV === "production",
 		content: ["./src/*.svelte"],
 	},
 	theme: {
@@ -13,15 +15,20 @@ module.exports = {
 			body: "Open Sans",
 		},
 		extend: {
+			spacing: {
+				128: "32rem",
+				"140p": "140vw",
+				"120p": "120vw",
+				"105p": "105vw",
+			},
+			zIndex: {
+				"-10": "-10",
+			},
 			transitionProperty: {
 				spacing: "margin, padding",
 			},
 			maxWidth: {
 				"7xl": "84rem",
-			},
-			width: {
-				"min-content": "min-content",
-				"max-content": "max-content",
 			},
 			colors: {
 				blue: {
@@ -44,12 +51,11 @@ module.exports = {
 					700: "#34AAB2",
 					600: "#40b7bf",
 					500: "#5dbfcd",
+					400: "#AFDCDE",
 				},
-				light: "#ECECE9",
+				white: "#ffffff",
+				gray: colors.warmGray,
 			},
-			backgroundImage: (theme) => ({
-				texture: "url('./assets/bedge-grunge.png')",
-			}),
 		},
 	},
 	variants: {
@@ -59,5 +65,5 @@ module.exports = {
 			padding: ["hover", "group-hover", "focus"],
 		},
 	},
-	plugins: [],
+	plugins: [require("tailwindcss-pseudo-elements")],
 };

@@ -1,4 +1,4 @@
-#intro-text.svelte-e1enz{mix-blend-mode:difference}#R_HAND.svelte-e1enz{animation:svelte-e1enz-hand 4s infinite ease-in-out;transform-origin:left top;transform-box:fill-box}@keyframes svelte-e1enz-hand{0%{transform:rotateZ(0deg)}4%{transform:rotateZ(1deg)}11%{transform:rotateZ(-2deg)}22%{transform:rotateZ(1deg)}25%{transform:rotateZ(-2deg)}35%{transform:rotateZ(1deg)}42%{transform:rotateZ(-2deg)}45%{transform:rotateZ(0deg)}}
-.tooltiptext.svelte-eni534::after{content:" ";position:absolute;bottom:100%;left:50%;margin-left:-5px;border-width:5px;border-style:solid;border-color:transparent transparent black transparent}
+#R_HAND.svelte-itmncu{animation:svelte-itmncu-hand 4s infinite ease-in-out;transform-origin:left top;transform-box:fill-box}@keyframes svelte-itmncu-hand{0%{transform:rotateZ(0deg)}4%{transform:rotateZ(1deg)}11%{transform:rotateZ(-2deg)}22%{transform:rotateZ(1deg)}25%{transform:rotateZ(-2deg)}35%{transform:rotateZ(1deg)}42%{transform:rotateZ(-2deg)}45%{transform:rotateZ(0deg)}}
+.tooltiptext.svelte-2dpcgm::after{content:" ";position:absolute;bottom:100%;left:50%;margin-left:-5px;border-width:5px;border-style:solid;border-color:transparent transparent black transparent}
 
 /*# sourceMappingURL=bundle.css.map */

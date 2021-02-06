@@ -7,11 +7,15 @@
 @tailwind utilities;
 
 @layer base {
-	body {
-		@apply font-body text-gray-900;
+	body,
+	html {
+		@apply font-body w-screen overflow-x-hidden bg-navy-900;
+	}
+	main {
+		@apply bg-gray-100 text-gray-700;
 	}
 	.section {
-		@apply w-screen px-2 py-4 sm:px-4 sm:py-10 md:p-16;
+		@apply w-screen;
 	}
 	.project-post h1 {
 		@apply font-display text-5xl;
@@ -20,36 +24,27 @@
 		@apply text-xl font-bold mt-2 md:mt-4;
 	}
 	.project-post p {
-		@apply py-1 px-2 md:py-2 md:px-4 text-justify;
+		@apply py-1 px-2 md:p-2 text-justify;
 	}
 	.project-post ol {
-		@apply list-decimal pl-6;
+		@apply list-decimal pl-8;
 	}
 	.project-post img {
 		@apply mx-auto;
 	}
-	/* .section {
-		@apply w-screen px-2 py-4;
-	}
-	@screen sm {
-		.section {
-			@apply px-4 py-10;
-		}
-	}
-	@screen md {
-		.section {
-			@apply px-6 py-12;
-		}
-	}
-	@screen lg {
-		.section {
-			@apply p-16;
-		}
-	} */
 	.section-container {
-		@apply max-w-4xl mx-auto;
+		@apply max-w-5xl mx-2 md:mx-8 lg:mx-20 xl:mx-auto pb-12 lg:pb-28;
 	}
 	.section-header {
-		@apply inline-block text-4xl font-display pb-2 leading-none;
+		@apply inline-block text-4xl font-display leading-none relative z-10 my-8 md:my-12 lg:my-16;
+	}
+	.section-header::after {
+		@apply empty-content absolute left-0 right-0 bottom-0 bg-teal-500 py-1.5 -mr-2 ml-2 -z-10 opacity-75;
+	}
+}
+
+@layer utilities {
+	.empty-content {
+		content: "";
 	}
 }
