@@ -1,3 +1,5 @@
+![screenshot of Chew](./assets/project-images/chew_main.png)
+
 ## Chew at a glance
 
 To begin a Chew session, a user first visits the homepage and enters their name and location. Chew then directs them to their session page and presents them with a link they can send their friends. When friends click on the link, they are brought to the same session page that prompts them for their name. If they don't enter their name, they get a read-only view of the session, in which they can see restaurants others have added but are unable to vote on them or add their own restaurant picks. Once they add their name, they have joined the session and then have the privileges to add and vote on restaurants.
@@ -16,7 +18,7 @@ Many times, be it with friends, family, or co-workers, I have found it time-cons
 
 ## **Solution**
 
-![screenshow of Chew](./assets/project-images/chew_architecture.png)
+![Chew architecture](./assets/project-images/chew_architecture.png)
 
 The client side of the app is a mobile-first web app built with React. The React app connects to a Node.js server running express via Socket.io and HTTP connections. Socket.io is used to push updates to the client, such as when a new restaurant is added to the list or when someone votes on a restaurant. Using Socket.io, the client can subscribe to particular events instead of manually checking for changes at a certain time interval. Users can see changes as they happen without refreshing the page. The client sends HTTP POST requests to the server when the user adds a new restaurant or votes on a restaurant.
 

@@ -2,10 +2,7 @@
 	export let skillsIntro;
 	import skills from "../../content/skills";
 	import Divider2 from "../../shared/dividers/Divider2.svelte";
-	import Svelte from "../../shared/icons/Svelte.svelte";
 	let labelName = "";
-	// let handleClick = (n) => { labelName = n; console.log(`${n} clicked`) };
-	console.log(skills);
 </script>
 
 <section class="section " id="skills">
@@ -18,13 +15,6 @@
 				class="uppercase font-bold tracking-wide my-4 text-lg border-b border-gray-400"
 			>
 				{groupName}
-				<!-- <div
-        class="py-1 px-3 bg-gradient-to-r from-teal-900 to-teal-700 text-white uppercase font-bold tracking-wide mt-4 mb-1 rounded-sm overflow-hidden relative">
-        
-        <img
-          src={dots}
-          class="absolute right-0 top-0 h-full -mr-1 pointer-events-none"
-          alt="" />-->
 			</div>
 			{#each Object.entries(groupContent) as [name, component]}
 				<button
@@ -35,7 +25,6 @@
 					on:hover={() => (labelName = name)}
 				>
 					<span class="group">
-						<!-- {skill.name} -->
 						<svelte:component
 							this={component}
 							fillColor="#57534E"
@@ -46,11 +35,6 @@
 							>{name}</span
 						>
 					</span>
-					<!-- <span class="{(labelName===name ? 'absolute left-0 white-space-nowrap' : 'hidden')}">
-                  <img class="ml-2" src={tooltipTip} />
-        <p class="bg-gray-800 text-white py-1 px-3 rounded leading-tight">{name}</p> 
-
-        </span>-->
 				</button>
 			{/each}
 		{/each}

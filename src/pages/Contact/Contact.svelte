@@ -7,16 +7,10 @@
 	<div class="section-container">
 		<h2 class="section-header">Contact</h2>
 		<div class="max-w-md mx-auto">
-			<!-- <div class="flex items-center justify-center"> -->
-			<!-- <img
-				class="flex-initial w-36 sm:w-44 md:w-60 lg:w-80 max-w-screen rounded-md shadow-lg my-8"
-				src="./assets/laura.jpg"
-				alt="Laura"
-			/> -->
-			<!-- <div class="flex-initial max-w-md"> -->
 			<a
 				href="https://www.linkedin.com/in/lauraschultz/"
 				target="_blank"
+				rel="noopener"
 				class="flex justify-start items-center my-8"
 				><span
 					class="flex-initial flex items-center w-12 h-12 -mr-4 bg-blue-500 rounded-full justify-center text-xl shadow z-20"
@@ -28,6 +22,7 @@
 			<a
 				href="mailto:schultzlaurac@gmail.com"
 				target="_blank"
+				rel="noopener"
 				class="flex justify-start items-center my-8"
 				><span
 					class="flex-initial flex items-center w-12 h-12 -mr-4 bg-blue-500 rounded-full justify-center text-xl shadow z-20"
@@ -36,8 +31,6 @@
 					><span class="ml-6 mr-2">schultzlaurac@gmail.com</span></span
 				>
 			</a>
-			<!-- </div> -->
-			<!-- </div> -->
 
 			<p class="pt-3 italic text-sm leading-tight">
 				Or, send me a message using the form below and I will respond to you
@@ -57,6 +50,7 @@
 						type="text"
 						class="my-2 focus:outline-none block w-full bg-gray-100 font-bold"
 						placeholder="Subject"
+						aria-label="Subject"
 					/>
 					<hr />
 					<textarea
@@ -64,6 +58,7 @@
 						class="my-2 focus:outline-none block w-full bg-gray-100"
 						rows="6"
 						placeholder="Message"
+						aria-label="Message"
 					/></div
 				>
 
@@ -78,6 +73,7 @@
 						type="email"
 						class="p-4 rounded shadow bg-gray-100 text-gray-600 block w-full focus:outline-none focus:ring focus:border-gray-300"
 						placeholder="Email"
+						aria-label="Email"
 					/></div
 				>
 				<button
@@ -85,6 +81,7 @@
 					class="group text-lg font-bold flex-inital hover:pr-4 transition-spacing duration-300 bg-blue-500 text-gray-100 px-5 py-1.5 rounded-lg shadow-lg"
 					href="http://github.com/lauraschultz"
 					target="_blank"
+					rel="noopener"
 				>
 					Submit
 					<i

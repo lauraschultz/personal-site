@@ -3,15 +3,12 @@
 	export let imageFirst = true;
 
 	import { location, push } from "svelte-spa-router";
-	// import BlurHashImage from "../BlurHashImage.svelte";
 	import projects from "../../content/projects.js";
 	import Modal from "../../shared/Modal.svelte";
-	// import blurHash from "./blurHash.json";
 	import ProjectDesc from "./ProjectDesc.svelte";
 
 	$: p = { ...projects[name], name: name };
 
-	let postExists = false;
 	let post;
 	fetch(`./assets/project-descriptions/${name}.md`, { mode: "no-cors" })
 		.then((r) =>
@@ -38,15 +35,15 @@
 			class={post ? "cursor-pointer" : ""}
 			src={`./assets/project-images/${name}_main.png`}
 			alt="screenshot of {p.title}"
+			width="800"
+			height="500"
 		/>
-		<!-- </a> -->
 	</div>
 	<div
 		class=" {'flex-1 w-full md:w-7/12 order-2 m-2 md:m-4 ' +
 			(imageFirst ? 'md:order-2' : 'md:order-1')}"
 	>
 		{#if p.titleComponent}
-			<!-- <img class="w-40 mb-2" src={p.titleImg} alt={p.title} /> -->
 			<div class=" w-32 lg:w-48 my-4">
 				<svelte:component this={p.titleComponent} color="text-gray-50" /></div
 			>
@@ -56,8 +53,7 @@
 		<p class="leading-tight">{p.bodyText}</p>
 		<a
 			class={post
-				? // ? "font-bold py-0.5 px-1 border-b-2 hover:border-b-4 border-gray-500 m-2 inline-block"
-				  "border-b-4 border-gray-400 mx-1 mt-3 inline-block px-3 pb-0.5"
+				? "border-b-4 border-gray-400 mx-1 mt-3 inline-block px-3 pb-0.5"
 				: "hidden"}
 			href={`#/project/${name}`}
 			><i class="fas fa-plus-circle inline-block mr-2" />See more</a
@@ -65,12 +61,14 @@
 		<a
 			class="border-b-2 border-gray-400 mx-1 mt-3 inline-block px-2 text-sm"
 			href={p.siteLink}
-			target="_blank"><i class="fas fa-link inline-block mr-2" />Live site</a
+			target="_blank"
+			rel="noopener"><i class="fas fa-link inline-block mr-2" />Live site</a
 		>
 		<a
 			class="border-b-2 border-gray-400 mx-1 mt-3 inline-block px-2 text-sm"
 			href={p.sourceCodeLink}
-			target="_blank"><i class="fas fa-code inline-block mr-2" />Source code</a
+			target="_blank"
+			rel="noopener"><i class="fas fa-code inline-block mr-2" />Source code</a
 		>
 	</div>
 </div>

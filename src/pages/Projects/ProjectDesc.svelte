@@ -16,8 +16,6 @@
 		}
 		return headings;
 	};
-
-	// $: if (!modalOpen) { onModalClose() }
 </script>
 
 <Modal open={modalOpen} onClose={onModalClose}>
@@ -33,12 +31,13 @@
 					class="py-1 px-4 rounded  m-1 inline-block shadow bg-navy-800 text-gray-100 hover:bg-navy-700"
 					href={project.siteLink}
 					target="_blank"
-					><i class="fas fa-link inline-block mr-2" />Live site</a
+					rel="noopener"><i class="fas fa-link inline-block mr-2" />Live site</a
 				>
 				<a
 					class="py-1 px-4 rounded  m-1 inline-block shadow bg-navy-800 text-gray-100 hover:bg-navy-700"
 					href={project.sourceCodeLink}
 					target="_blank"
+					rel="noopener"
 					><i class="fas fa-code inline-block mr-2" />Source code</a
 				>
 			</div>

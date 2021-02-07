@@ -38,7 +38,7 @@
 		>
 			<button
 				on:click={onClose}
-				class="absolute top-0 right-0 my-3 mx-5 text-gray-400 bg-black rounded-full leading-tight"
+				class="absolute top-0 right-0 my-3 mx-5 text-gray-400 leading-tight"
 				><i class="fas fa-times" /></button
 			>
 			<slot />

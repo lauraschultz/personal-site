@@ -7,8 +7,6 @@
 <section class="section bg-gray-800 text-gray-100 pt-0" id="projects">
 	<Divider1 color="text-gray-100" />
 
-	<!-- <div class="h-6 bg-contain" style="background-image: url({blob}); background-repeat: repeat-x;"></div> -->
-
 	<div class="section-container ">
 		<h2 class="section-header">Projects</h2>
 		<div class="divide-y divide-gray-600">
@@ -21,6 +19,7 @@
 				class="group text-lg font-bold p flex-inital hover:pr-4 transition-spacing duration-300 mt-3 inline-block px-5 py-1.5 rounded-lg shadow-lg bg-gray-200 text-gray-900"
 				href="http://github.com/lauraschultz"
 				target="_blank"
+				rel="noopener"
 			>
 				<i class="fab fa-github mr-2" />
 				See more on Github

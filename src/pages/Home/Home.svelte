@@ -1,8 +1,5 @@
 <script>
-	import Divider1 from "../../shared/dividers/Divider1.svelte";
 	import Background from "./Background.svelte";
-	// let triangle = "./assets/vector.svg";
-	// import WomanAtComputer from "./WomanAtComputer.svelte";
 	export let bio;
 </script>
 
@@ -33,6 +30,12 @@
 	<div
 		class="flex-initial mx-auto animate-bounce my-4 lg:absolute lg:bottom-0 lg:w-screen lg:text-center"
 	>
-		<a href="#projects"><i class=" fas fa-chevron-down" size="2x" /></a></div
+		<a href="#projects"
+			><i
+				class=" fas fa-chevron-down"
+				size="2x"
+				aria-label="scroll to Projects"
+			/></a
+		></div
 	>
 </section>
