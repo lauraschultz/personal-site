@@ -13,6 +13,6 @@
     status = 200
 
 [[redirects]]
-    from = "https://library.lauraschultz.dev/*"
-    to = "https://little-free-library-walk.netlify.app/:splat"
+    from = "/library/*"
+    to = "https://little-free-library-walk.netlify.app/library/:splat"
     status = 200
